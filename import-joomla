@@ -1,0 +1,9 @@
+ruby -rubygems -e 'require "jekyll-import";
+    JekyllImport::Importers::Joomla.run({
+        "dbname"   => "linuxcnc_org",
+        "user"     => "emcboard",
+        "password" => "F8&q114Z^",
+        #"host"     => "db.linuxcnc.org",
+        "host"     => "127.0.0.1",
+        "section"  => "Documentation"
+    })'
