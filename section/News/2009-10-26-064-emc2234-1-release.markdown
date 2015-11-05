@@ -1,0 +1,8 @@
+---
+layout: post
+title: emc2_2.3.4-1 Release
+joomla_id: 64
+joomla_url: emc2234-1-release
+date: 2009-10-26 01:58:49.000000000 -06:00
+---
+<div>A fresh bugfix release (<a href="https://sourceforge.net/projects/emc/files/emc2/emc2_2.3.4-1/emc2-2.3.4-1.release-notes/download" target="_blank">Changelog</a>). You can get it: as a source package from&nbsp;<a href="http://prdownloads.sourceforge.net/emc/emc2_2.3.4-1.tar.gz?download">sourceforge</a>&nbsp;, from&nbsp;<a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2" target="_blank">Git</a>&nbsp;, or as a precompiled package which works on Ubuntu as described&nbsp;<a href="content/view/2/4/lang,en/">here</a>.</div>

@@ -1,0 +1,8 @@
+---
+layout: post
+title: emc2_2.4.0 Release
+joomla_id: 66
+joomla_url: emc2240-release
+date: 2010-05-26 01:38:10.000000000 -06:00
+---
+<p>A new major release. You can get it: as a source package from&nbsp;sourceforge, from&nbsp;<a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2" target="_blank">Git</a>&nbsp;, or as a precompiled package which works on Ubuntu as described&nbsp;<a href="content/view/2/4/lang,en/">here</a>. (<a href="content/view/66/6/">more</a>)</p><p><span style="font-family: verdana; font-size: 11px; color: #555555; line-height: 16px" class="Apple-style-span">Because this version is incompatible with emc 2.3.x in several minor ways, it will not automatically be installed as an upgrade. <br />For more information and installation/upgrade instructions, please see&nbsp;<a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?UpdatingTo2.4" target="_blank">UpdatingTo2.4</a>&nbsp; <br /></span></p><p><span style="font-family: verdana; font-size: 11px; color: #555555; line-height: 16px" class="Apple-style-span">Many thanks to all the contributors who have been working over the course of many months to deliver the many improvements in this release.</span> </p>

@@ -1,0 +1,8 @@
+---
+layout: post
+title: new emc2-testing
+joomla_id: 8
+joomla_url: emc2-testing-2006-02-19
+date: 2006-02-27 14:52:34.000000000 -07:00
+---
+The newest emc2 testing version is 2006-02-19, it holds a lot of improvements. Get it using the traditional way (CVS) or directly from <a href="http://solaris.cs.utt.ro/~emc/emc2-testing-2006-02-19.tar.gz">here</a> <br />

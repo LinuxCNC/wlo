@@ -1,0 +1,8 @@
+---
+layout: post
+title: Ubuntu 10.04&LinuxCNC Live CD
+joomla_id: 70
+joomla_url: ubuntu-1004aemc2-live-cd
+date: 2010-09-06 01:28:18.000000000 -06:00
+---
+<p>The EMC2 team has a custom <a href="index.php/download/21/" title="LiveCD">Live-CD</a> (<a href="http://dsplabs.upt.ro/%7Ejuve/emc/" target="_blank">EU mirror</a>) based on Ubuntu 10.04 with LinuxCNC 2.4.x included, that will let you try out LinuxCNC before installing, and it's also the easiest way to install Ubuntu and LinuxCNC together. (<a href="index.php/download/21/">more</a>)</p>

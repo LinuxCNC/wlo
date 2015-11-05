@@ -1,0 +1,8 @@
+---
+layout: post
+title: emc2.2.2 Release
+joomla_id: 44
+joomla_url: emc222-release
+date: 2007-12-03 01:30:53.000000000 -07:00
+---
+A fresh bugfix release (2.2.2) - (<a target="_blank" href="http://sourceforge.net/project/shownotes.php?release_id=558818&amp;group_id=6744">Changelog</a>). <br />You can get it: as a source package from <a target="_blank" href="http://prdownloads.sourceforge.net/emc/emc2.2.2.tar.gz?download">sourceforge</a> , from <a target="_blank" href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2">CVS</a> , or as a precompiled package which works on Ubuntu as described <a href="content/view/2/4/lang,en/">here</a>. 

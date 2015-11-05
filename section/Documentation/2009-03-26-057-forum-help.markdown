@@ -1,0 +1,8 @@
+---
+layout: post
+title: Forum Help
+joomla_id: 57
+joomla_url: forum-help
+date: 2009-03-26 06:22:54.000000000 -06:00
+---
+<p>The <a href="component/option,com_kunena/">EMC Forum</a>  has been opened for evaluation and may be closed at any time. </p><p>Logon in the Documents page and check off &quot;Remember Me&quot; then go to the EMC Forum.</p><p>You need to register to create or post to a topic. </p><p>You don&#39;t need to register to read topics. </p><p>&nbsp;</p>

@@ -1,0 +1,8 @@
+---
+layout: post
+title: EMC2.0.1 Release
+joomla_id: 23
+joomla_url: emc201-release
+date: 2006-06-05 02:21:35.000000000 -06:00
+---
+<p>We are glad to announce the second official release version called EMC2.0.1<br />It holds a number of bugfixes to the last version, you can get it as a source package from <a target="_blank" href="http://prdownloads.sourceforge.net/emc/emc2.0.1.tar.gz?download">sourceforge</a> , from <a target="_blank" href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2">CVS</a> , or as a precompiled package which works on Ubuntu as described <a href="index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=4">here</a> .<br /></p>

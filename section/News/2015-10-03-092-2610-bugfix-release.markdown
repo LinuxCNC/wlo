@@ -1,0 +1,8 @@
+---
+layout: post
+title: 2.6.10 bugfix release
+joomla_id: 92
+joomla_url: 2610-bugfix-release
+date: 2015-10-03 05:13:10.000000000 -06:00
+---
+<p>LinuxCNC 2.6.10 is out.  This one contains a couple of bug fixes.  Full changelog <a href="http://wiki.linuxcnc.org/cgi-bin/wiki.pl?Released_2.6.X">here</a>.</p>

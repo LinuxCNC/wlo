@@ -1,0 +1,8 @@
+---
+layout: post
+title: 2.6.8 is released
+joomla_id: 89
+joomla_url: 268-is-released
+date: 2015-05-12 02:06:25.000000000 -06:00
+---
+<p>Get it while it's hot!  This fixes several bugs, all users are encouraged to upgrade.  Full changelog <a href="http://wiki.linuxcnc.org/cgi-bin/wiki.pl?Released_2.6.X">here</a>.</p>

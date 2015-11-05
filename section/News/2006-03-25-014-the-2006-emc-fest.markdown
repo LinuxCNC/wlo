@@ -1,0 +1,13 @@
+---
+layout: post
+title: The 2006 EMC Fest
+joomla_id: 14
+joomla_url: the-2006-emc-fest
+date: 2006-03-25 15:26:10.000000000 -07:00
+---
+UPCOMING EVENTS<br />
+May 15 - 21, 2006 (preliminary date)<br />
+<br />
+<a href="http://www.cnc-workshop.com/" target="_blank">CNC Workshop</a> at Cardinal Engineering, Galesburg, Illinois, USA.<br />
+A hands on workshop and exhibition for those building or converting CNC machines run by Roland Friestad.<br />
+Workshops and seminars all week. Vendor exhibits full attendance on Saturday and Sunday, but many will be there all week.

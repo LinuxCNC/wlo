@@ -1,0 +1,8 @@
+---
+layout: post
+title: 2.6.11 bugfix release
+joomla_id: 96
+joomla_url: 2611-bugfix-release
+date: 2015-11-01 23:37:02.000000000 -07:00
+---
+<p>The 2.6.11 release is out.  This one fixes an important bug in canned cycle preliminary motion, and some other minor bugs.</p>

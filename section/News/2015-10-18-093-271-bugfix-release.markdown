@@ -1,0 +1,8 @@
+---
+layout: post
+title: 2.7.1 bugfix release
+joomla_id: 93
+joomla_url: 271-bugfix-release
+date: 2015-10-18 16:52:35.000000000 -06:00
+---
+<p>The 2.7.1 bug fix release is out.  All users are encouraged to upgrade.  The changelog is available in the <a href="http://wiki.linuxcnc.org/cgi-bin/wiki.pl?Released_2.7.X">usual place</a>.</p>

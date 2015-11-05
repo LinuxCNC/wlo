@@ -1,0 +1,8 @@
+---
+layout: post
+title: '2.7.2: bugfix'
+joomla_id: 95
+joomla_url: 272-bugfix
+date: 2015-11-01 23:16:58.000000000 -07:00
+---
+<p>LinuxCNC 2.7.2 is out, with an important bugfix in canned cycle preliminary motion.</p>

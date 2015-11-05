@@ -1,0 +1,10 @@
+---
+layout: post
+title: LinuxCNC 2.4.6 Release
+joomla_id: 72
+joomla_url: emc2-246-release
+date: 2011-03-23 14:13:45.000000000 -06:00
+---
+<p>Fresh bugfix release (<a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Released">changelog</a>).</p>
+<p>See the <a href="index.php/download/21/">download</a> page to download the LiveCD.</p>
+<p>Or you can download the source <a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2">here</a>.</p>

@@ -1,0 +1,8 @@
+---
+layout: post
+title: emc2.0.5 Release
+joomla_id: 29
+joomla_url: emc205-release
+date: 2006-12-02 16:11:30.000000000 -07:00
+---
+Version 2.0.5, holds a series of bugfixes (<a href="https://sourceforge.net/project/shownotes.php?release_id=468287&amp;group_id=6744">Changes</a>) over the 2.0.4 release. <br />You can get it as a source package from <a target="_blank" href="http://prdownloads.sourceforge.net/emc/emc2.0.5.tar.gz?download">sourceforge</a> , from <a target="_blank" href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2">CVS</a> , or as a precompiled package which works on Ubuntu as described <a href="index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=4">here</a>.

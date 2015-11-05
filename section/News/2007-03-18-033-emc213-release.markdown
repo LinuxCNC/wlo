@@ -1,0 +1,8 @@
+---
+layout: post
+title: emc2.1.3 Release
+joomla_id: 33
+joomla_url: emc213-release
+date: 2007-03-18 12:58:54.000000000 -06:00
+---
+Version 2.1.3, holds a series of bugfixes (<a href="https://sourceforge.net/project/shownotes.php?group_id=6744&amp;release_id=494640">Changes</a>) over the 2.1.2 release. <br />You can get it as a source package from <a target="_blank" href="http://prdownloads.sourceforge.net/emc/emc2.1.3.tar.gz?download">sourceforge</a> , from <a target="_blank" href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2">CVS</a> , or as a precompiled package which works on Ubuntu as described <a href="index.php?option=com_content&amp;task=view&amp;id=2&amp;Itemid=4">here</a>.<p>Changes, bugfixes, improvements:<br /></p><ul><li>make 'load' button work in classicladder</li><li>add french translation of axis</li><li>improve italian translation of axis</li><li>make 'milltask' not consume all CPU after 'run from line' has been used</li><li>new userspace component: hal_input for all Linux-recognized input devices</li><li>image-to-gcode: spindle speed and plunge feed rate can now be selected</li><li>image-to-gcode: tool shape compensation bugfixes</li><li>image-to-gcode: add documentation</li><li>stepgen: revise core to eliminate 1 count deadband and resulting &quot;bobbles&quot;</li><li>improve segment throughput for slow machines when using AXIS</li><li>fix cutter compensation sticky words when using zero radius tool</li><li>fix incorrect path in some circumstances after G40 in lathe mode</li><li>in AXIS, unhighlight a program line that was chosen interactively when starting a program.&nbsp; this way, the highlight follows the running program.</li><li>fix some misformatted/truncated error messages</li></ul>

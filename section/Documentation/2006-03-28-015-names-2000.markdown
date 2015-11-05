@@ -1,0 +1,10 @@
+---
+layout: post
+title: Names 2000
+joomla_id: 15
+joomla_url: names-2000
+date: 2006-03-28 01:29:16.000000000 -07:00
+---
+Quickie page with no thumbnails, so it loads slowly, but you get 
+to see the faces that go with many of  people you may know from 
+the CAD_CAM_DRO_EDM and NIST EMC mailing lists.

@@ -1,0 +1,8 @@
+---
+layout: post
+title: emc2_2.3.0 Release
+joomla_id: 59
+joomla_url: emc2230-release
+date: 2009-04-19 13:54:36.000000000 -06:00
+---
+<p>The first stable release of the 2.3 series, emc2.3.0.<br />Read the&nbsp;<a href="https://sourceforge.net/project/shownotes.php?group_id=6744&amp;release_id=676986" target="_blank">changelog</a> &nbsp;for an extensive list of new features/fixes.<br />You can get it: as a source package from&nbsp;<a href="http://prdownloads.sourceforge.net/emc/emc2_2.3.0.tar.gz?download" target="_blank">sourceforge</a>&nbsp;, from&nbsp;<a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?Installing_EMC2" target="_blank">Git</a>&nbsp;, or as a precompiled package which works on Ubuntu as described&nbsp;<a href="content/view/2/4/lang,en/">here</a>. (<a href="content/view/59/6/">more</a>)</p><p><span style="font-family: verdana; font-size: 11px; color: #555555; line-height: 16px" class="Apple-style-span">Because this version is incompatible with emc 2.2.8 in several minor ways, it will not automatically be installed as an upgrade. <br />For more information and installation/upgrade instructions, please see&nbsp;<a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl?UpdatingTo2.3" target="_blank">UpdatingTo2.3</a> &nbsp;</span></p><p><span style="font-family: verdana; font-size: 11px; color: #555555; line-height: 16px" class="Apple-style-span">Many thanks to all the contributors who have been working over the course of many months to deliver the many improvements in this release.</span>&nbsp;</p>
