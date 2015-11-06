@@ -26,7 +26,7 @@ date: 2006-02-27 14:42:03.000000000 -07:00
 <li>Connect to the internet and get any updates <strong><br /> (Do Not Update the Ubuntu LTS version!)</strong></li>
 <li>Read the <a href="docs/2.5/pdf/LinuxCNC_Getting_Started.pdf">Getting Started Manual</a></li>
 </ol>
-<p><a href="index.php?option=com_content&task=view&id=21&Itemid=4">Other Installation Options</a> from one of the LinuxCNC Live CDs.</p>
+<p><a href="installing-emc2">Other Installation Options</a> from one of the LinuxCNC Live CDs.</p>
 <p>You can also try out LinuxCNC without installing anything to your hard disk.</p>
 <p>The LinuxCNC Live CD are based on <strong>Ubuntu 8.04 "Hardy Heron" LTS</strong> and <strong>Ubuntu 10.04 "Lucid Lynx" LTS </strong>with additional packages maintained by the LinuxCNC development team.</p>
 <p>Note: Do Not upgrade Ubuntu from 6.06 to 8.04 or upgrade from 8.04 to 8.10. The precompiled versions of LinuxCNC are only compatible with the Ubuntu version they were compiled with. Upgrading will remove the LinuxCNC packages and make your system unable to run LinuxCNC .</p>
