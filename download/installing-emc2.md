@@ -29,7 +29,7 @@ date: 2006-05-02 13:32:19.000000000 -06:00
 <p>If you prefer to start with the distributed Ubuntu CD, you can install LinuxCNC yourself with these instructions:</p>
 <ul>
 <li>Step 1: Install <a href="http://www.ubuntu.com/">Ubuntu</a> 10.04 Lucid Lynx (for 32-bit) or 8.04 Hardy Heron (for 32- or 64-bit). Other versions of Ubuntu will not work with LinuxCNC as there are no packages designed to work with them. </li>
-<li>Step 2: Once you have installed <a href="http://www.ubuntu.com/">Ubuntu</a> , get the install script from here: <a href="install-scripts/lucid/linuxcnc-install.sh">lucid-install</a> or here: <a href="install-scripts/hardy/linuxcnc-install.sh">hardy-install</a>, choose "Save to Disk" and click OK.</li>
+<li>Step 2: Once you have installed <a href="http://www.ubuntu.com/">Ubuntu</a> , get the install script from here: <a href="{{site.baseurl}}/download/install-scripts/lucid/linuxcnc-install.sh">lucid-install</a> or here: <a href="{{site.baseurl}}/download/install-scripts/hardy/linuxcnc-install.sh">hardy-install</a>, choose "Save to Disk" and click OK.</li>
 <li>Step 3: With the file manager navigate to linuxcnc-install.sh. Right-click on the file, select Properties. Go to the Permissions tab and check the box for Owner: Execute. Close the Properties window.</li>
 <li>Step 4: Now double-click the linuxcnc-install.sh icon, and select "Run in Terminal". A terminal will appear and you will be asked for your password.</li>
 <li>Step 5: When the installation asks if you are sure you want to install the LinuxCNC packages, hit Enter to accept.   Now just allow the install to finish.</li>
