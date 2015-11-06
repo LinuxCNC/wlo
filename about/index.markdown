@@ -1,6 +1,7 @@
 ---
 layout: post
 title: About
+navbar: yes
 joomla_id: 11
 joomla_url: about
 date: 2006-03-19 07:21:31.000000000 -07:00
