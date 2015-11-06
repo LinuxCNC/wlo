@@ -16,7 +16,7 @@ date: 2006-03-19 07:21:31.000000000 -07:00
 <li>LinuxCNC provides:   
 <ul>
 <li>several graphical user interfaces including one for touch screens </li>
-<li>an interpreter for "<a href="docview/html/gcode.html" target="_blank">G-code</a>" (the RS-274 machine tool programming language)</li>
+<li>an interpreter for "<a href="{{site.url}}/docs/html/gcode.html" target="_blank">G-code</a>" (the RS-274 machine tool programming language)</li>
 <li>a realtime motion planning system with look-ahead</li>
 <li>operation of low-level machine electronics such as sensors and motor drives</li>
 <li>an easy to use "breadboard" layer for quickly creating a unique configuration for your machine</li>
@@ -37,7 +37,6 @@ date: 2006-03-19 07:21:31.000000000 -07:00
 <h2>About the people</h2>
 <ul>
 <li> A lot of people have worked and still work on LinuxCNC , most of them can be seen on the <a href="http://sourceforge.net/project/memberlist.php?group_id=6744" target="_blank">developers list</a>; </li>
-<li>There is also a <a href="component/option,com_google_maps_insight/">geographical map</a> of some of our users (you can only view the map if you are signed in);</li>
 </ul>
 <p> </p>
 <h2>Supporters</h2>
