@@ -40,7 +40,7 @@ date: 2006-02-27 14:44:17.000000000 -07:00
 <li> 
 <ul>
 </ul>
-A little bit of      <a href="index.php?option=com_content&amp;task=view&amp;id=6&amp;Itemid=5"> History</a> about the EMC project </li>
+A little bit of      <a href="{{site.baseurl}}/about/emc-history"> History</a> about the EMC project </li>
 <li>Some      <a href="index.php?option=com_content&amp;task=blogcategory&amp;id=15&amp;Itemid=12"> Events</a> revolving around LinuxCNC.</li>
 <li>Information about      <a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl/emcinfo.pl?EmcVersion2" target="_blank">EMC2</a> </li>
 <li>Information about the      <a href="index.php?option=com_content&amp;task=view&amp;id=1&amp;Itemid=5"> release</a> system</li>
