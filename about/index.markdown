@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 navbar: yes
 joomla_id: 11

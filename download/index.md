@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Download
 navbar: yes
 joomla_id: 2
