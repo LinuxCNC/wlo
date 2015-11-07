@@ -26,6 +26,7 @@
         {% for page in site.pages %}
           {% if page.navbar AND page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
+        <a class="page-link" href="{{site.baseurl}}/news">News</a>
         <a class="page-link" href="http://linuxcnc.org/index.php/english/forum/index">Forum</a>
         <a class="page-link" href="http://wiki.linuxcnc.org/">Wiki</a>
       </div>
