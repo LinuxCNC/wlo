@@ -33,4 +33,11 @@
 
   </div>
 
+  <center>
+    Current releases:
+    {% for release in site.data.releases %}
+        <a href="{{release.link}}">{{release.name}}</a>
+    {% endfor %}
+  </center>
+
 </header>
