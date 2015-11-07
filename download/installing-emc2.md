@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 joomla_id: 21
 joomla_url: installing-emc2
 date: 2006-05-02 13:32:19.000000000 -06:00

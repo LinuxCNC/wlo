@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: EMC History
 joomla_id: 6
 joomla_url: emc-history
