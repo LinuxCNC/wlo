@@ -24,4 +24,4 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 <li>Bug Reports and Feature Requests are handled by the <a href="http://sourceforge.net/p/emc/bugs/">Source Forge Tracking System</a>. </li>
 </ul>
 <h2>Board</h2>
-<p>If you want to address the <a href="index.php?option=com_content&task=view&id=12&Itemid=10">Board of Directors</a> about a governance issue, you can do that by sending email to the <a href="mailto:%20emc-board@lists.sourceforge.net">board mailing list</a>.</p>
+<p>If you want to address the <a href="{{site.baseurl}}/about/board-of-directors">Board of Directors</a> about a governance issue, you can do that by sending email to the <a href="mailto:emc-board@lists.sourceforge.net">board mailing list</a>.</p>
