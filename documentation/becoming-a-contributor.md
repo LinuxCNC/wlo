@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Becoming A Contributor
 joomla_id: 50
 joomla_url: becoming-a-contributor
