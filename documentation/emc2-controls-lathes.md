@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: EMC2 controls lathes
 joomla_id: 28
 joomla_url: emc2-controls-lathes

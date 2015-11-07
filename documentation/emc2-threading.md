@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: EMC2 Threading
 joomla_id: 35
 joomla_url: emc2-threading

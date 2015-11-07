@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Bug reports
 joomla_id: 48
 joomla_url: bug-reports

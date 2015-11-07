@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: EMC internals
 joomla_id: 42
 joomla_url: emc-internals

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Laser engraving
 joomla_id: 56
 joomla_url: laser-engraving
