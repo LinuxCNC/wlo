@@ -2,8 +2,8 @@
 title: LinuxCNC
 email: emc-developers@lists.sourceforge.net
 description: "LinuxCNC: an open source CNC machine controller"
-baseurl: "http://highlab.com/~seb/linuxcnc/wlo"
-url: "http://linuxcnc.org"
+baseurl: "/~seb/linuxcnc/wlo"
+url: "http://highlab.com"
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
