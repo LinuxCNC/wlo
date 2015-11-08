@@ -1,6 +1,6 @@
 ---
 layout: page
-navbar: yep
+navbar: no
 title: Documentation
 joomla_id: 5
 joomla_url: documentation

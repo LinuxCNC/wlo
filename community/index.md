@@ -12,7 +12,7 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 <ul>
 <li>The primary means of contact is to join the users <a href="http://lists.sourceforge.net/lists/listinfo/emc-users">mailing list</a>, hosted at Sourceforge. (there are also <a href="http://news.gmane.org/gmane.linux.distributions.emc.user">archives</a> and <a href="http://sourceforge.net/mailarchive/forum.php?forum=emc-users">older archives</a>)</li>
 <li>The other preferred way to contact us, is on IRC (channel #linuxcnc on irc.freenode.net), (more information about connecting with your own client, and also a link to freenode's webchat can be found on their <a href="http://freenode.net/using_the_network.shtml">how to use the network</a> page). </li>
-<li>The LinuxCNC <a href="index.php/forum">Support Forum</a> is a user maintained place to discuss LinuxCNC.</li>
+<li>The LinuxCNC <a href="https://forum.linuxcnc.org/">Support Forum</a> is a user maintained place to discuss LinuxCNC.</li>
 <li>The LinuxCNC <a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl">Wiki</a> site contains a wealth of user contributed information about LinuxCNC and CNC </li>
 </ul>
 <h2>Developers</h2>
