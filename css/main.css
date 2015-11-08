@@ -16,6 +16,7 @@ body {
   background-color: #fdfdfd;
 }
 
+center.releases a { padding-left: 12px; }
 p + p { padding-top: 12px; }
 
 strong { font-weight: 600; }
