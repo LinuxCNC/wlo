@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+navbar: yep
+title: News
 ---
 
 <div class="home">
