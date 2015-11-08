@@ -1,0 +1,33 @@
+#!/bin/bash
+
+GIT_REPO=/home/seb/wlo.git
+WEBSITE=/home/seb/public_html/linuxcnc/wlo
+
+RETVAL=0
+
+while read FROM TO REF; do
+    echo "stdin: from=$FROM to=$TO ref=$REF"
+    if [ "$REF" != "refs/heads/master" ]; then
+        continue
+    fi
+
+    #
+    # updating master branch, build the site
+    #
+
+    BUILD_DIR=$(mktemp --directory)
+    git clone $GIT_REPO $BUILD_DIR
+    cd $BUILD_DIR
+    jekyll build --quiet --trace
+    if [ $? -ne 0 ]; then
+        # jekyll failed to build the site
+        RETVAL=1
+    else
+        # jekyll suceeded
+        rsync --archive --quiet $BUILD_DIR/_site/ $WEBSITE
+    fi
+    rm -rf $BUILD_DIR
+done
+
+exit $RETVAL
+
