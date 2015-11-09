@@ -6,11 +6,6 @@ joomla_id: 4
 joomla_url: community
 date: 2006-02-27 14:42:54.000000000 -07:00
 ---
-We would be very happy to hear from you.
-
-Based on the type of information you have/need there are various ways
-of contacting us.
-
 
 ## Users
 
