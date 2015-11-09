@@ -18,8 +18,8 @@ Here you'll find information [about the software][about],
 Our community-maintained [wiki][wiki] contains lots of information and examples about configuration and using LinuxCNC.
 
 LinuxCNC uses a Hardware Abstraction layer that allows you to adapt it to many
-kinds of machinery, and includes elements like a software PLC controller
-and an advanced trajectory planner.
+kinds of machinery, and includes a software PLC controller and an advanced
+trajectory planner.
 
 Note: Do Not upgrade the Linux operating system from the installed version as it will prevent LinuxCNC from working as a specific kernel is required.
 
