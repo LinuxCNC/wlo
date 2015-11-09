@@ -20,11 +20,11 @@ build_branch() {
     echo "building branch $REF_NAME (commit $AFTER)"
 
     DIR=$(mktemp --dir)
-    git clone $REPO $DIR
+    git clone $REPO $DIR 2>&1
 
     cd $DIR
 
-    git checkout $AFTER
+    git checkout $AFTER 2>&1
     ./scripts/update-version
 
     cat  >| _extra_config.yml <<-END
