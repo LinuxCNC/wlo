@@ -4,25 +4,48 @@
 RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org/new
 
 
-git fetch -t origin
-
-MASTER_SHA=$(git rev-parse master)
-ORIGIN_MASTER_SHA=$(git rev-parse origin/master)
-
-if [ $MASTER_SHA = $ORIGIN_MASTER_SHA ] && [ "$1" != "--force" ]; then
-    echo "master and origin/master are the same, nothing to do"
-    echo "run with --force to do it anyway"
-    exit 0
-fi
-
-git reset --hard
-git checkout master
-git reset --hard origin/master
-
+#
+# build the site
+#
 
 ./scripts/update-version
 jekyll build --trace || exit 1
 
 
-rsync -e 'ssh -i /home/seb/.ssh/wlo' --archive --quiet _site/ $RSYNC_DEST
+#
+# upload it to wlo
+#
+
+rsync -e 'ssh -i /home/seb/.ssh/wlo' --archive --verbose _site/ $RSYNC_DEST
+
+
+#
+# wait for new commits to show up in the git repo
+#
+
+while : ; do
+    git fetch -t origin
+
+    MASTER_SHA=$(git rev-parse master)
+    ORIGIN_MASTER_SHA=$(git rev-parse origin/master)
+
+    if [ $MASTER_SHA = $ORIGIN_MASTER_SHA ]; then
+        echo "$(date +'%F %T')  master and origin/master are the same, nothing to do"
+        sleep 60
+    else
+        echo "$(date +'%F %T')  new commits in origin/master!"
+        break
+    fi
+done
+
+
+#
+# new commits are available, and have been fetched into this repo
+#
+
+git reset --hard
+git checkout master
+git reset --hard origin/master
+
+exec scripts/pull-build-rsync
 
