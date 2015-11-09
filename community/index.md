@@ -6,22 +6,65 @@ joomla_id: 4
 joomla_url: community
 date: 2006-02-27 14:42:54.000000000 -07:00
 ---
-<p>We would be very happy to hear from you.<br /> Based on the type of information you have/need there are various ways of contacting us.</p>
-<h2>Users</h2>
-<p>Use these methods for help setting up and using LinuxCNC , and for general cnc topics.</p>
-<ul>
-<li>The primary means of contact is to join the users <a href="http://lists.sourceforge.net/lists/listinfo/emc-users">mailing list</a>, hosted at Sourceforge. (there are also <a href="http://news.gmane.org/gmane.linux.distributions.emc.user">archives</a> and <a href="http://sourceforge.net/mailarchive/forum.php?forum=emc-users">older archives</a>)</li>
-<li>The other preferred way to contact us, is on IRC (channel #linuxcnc on irc.freenode.net), (more information about connecting with your own client, and also a link to freenode's webchat can be found on their <a href="http://freenode.net/using_the_network.shtml">how to use the network</a> page). </li>
-<li>The LinuxCNC <a href="https://forum.linuxcnc.org/">Support Forum</a> is a user maintained place to discuss LinuxCNC.</li>
-<li>The LinuxCNC <a href="http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl">Wiki</a> site contains a wealth of user contributed information about LinuxCNC and CNC </li>
-</ul>
-<h2>Developers</h2>
-<p>Use these methods to contribute to the development of LinuxCNC , including documentation, translation, new drivers and components.</p>
-<ul>
-<li>Contribute to the development of LinxCNC <a href="docs/html/code/Contributing-to-LinuxCNC.html">how to</a>.</li>
-<li>The primary means of contact is to join the developers <a href="http://lists.sourceforge.net/lists/listinfo/emc-developers">mailing list</a>, hosted at Sourceforge. (there are also <a href="http://news.gmane.org/gmane.linux.distributions.emc.devel">archives</a> and <a href="http://sourceforge.net/mailarchive/forum.php?forum=emc-developers">older archives</a>)</li>
-<li>The other preferred way to contact us, is on IRC (channel #linuxcnc-devel on irc.freenode.net), (more information about connecting with your own client, and also a link to freenode's webchat can be found on their <a href="http://freenode.net/using_the_network.shtml">how to use the network</a> page).</li>
-<li>Bug Reports and Feature Requests are handled by the <a href="http://sourceforge.net/p/emc/bugs/">Source Forge Tracking System</a>. </li>
-</ul>
-<h2>Board</h2>
-<p>If you want to address the <a href="{{site.baseurl}}/about/board-of-directors">Board of Directors</a> about a governance issue, you can do that by sending email to the <a href="mailto:emc-board@lists.sourceforge.net">board mailing list</a>.</p>
+We would be very happy to hear from you.
+
+Based on the type of information you have/need there are various ways
+of contacting us.
+
+
+## Users
+
+Use these methods for help setting up and using LinuxCNC , and for
+general CNC topics.
+
+* The primary means of contact is to join the [users' mailing
+  list](http://lists.sourceforge.net/lists/listinfo/emc-users),
+  hosted at Sourceforge.  There are also
+  [archives](http://news.gmane.org/gmane.linux.distributions.emc.user)
+  and [older
+  archives](http://sourceforge.net/mailarchive/forum.php?forum=emc-users.
+
+* The other preferred way to contact us is on IRC (channel #linuxcnc
+  on irc.freenode.net).  More information about connecting with your own
+  client, and also a link to freenode's webchat can be found on their [how
+  to use the network](http://freenode.net/using_the_network.shtml) page).
+
+* The LinuxCNC [Forum](https://forum.linuxcnc.org/) is a user maintained
+  place to discuss LinuxCNC.
+
+* The LinuxCNC [Wiki](http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl)
+  contains a wealth of user contributed information about LinuxCNC and
+  CNC in general.
+
+
+## Developers
+
+Use these methods to contribute to the development of LinuxCNC , including
+documentation, translation, new drivers and components.
+
+* Contribute to the development of LinxCNC
+  [HowTo](docs/html/code/Contributing-to-LinuxCNC.html).
+
+* The primary means of contact is to join the [developers' mailing
+  list](http://lists.sourceforge.net/lists/listinfo/emc-developers),
+  hosted at Sourceforge.  There are also
+  [archives](http://news.gmane.org/gmane.linux.distributions.emc.devel)
+  and [older
+  archives](http://sourceforge.net/mailarchive/forum.php?forum=emc-developers).
+
+* The other preferred way to contact us, is on IRC (channel
+  #linuxcnc-devel on irc.freenode.net).  More information
+  about connecting with your own client, and also a link to
+  freenode's webchat can be found on their [how to use the
+  network](http://freenode.net/using_the_network.shtml) page.
+
+* Bug Reports and Feature Requests are handled by the
+  [Source Forge Tracking System](http://sourceforge.net/p/emc/bugs/).
+
+
+## Board
+
+If you want to address the [Board of
+Directors]({{site.baseurl}}/about/board-of-directors) about a
+governance issue, you can do that by sending email to the [board mailing
+list](mailto:emc-board@lists.sourceforge.net).
