@@ -4,7 +4,7 @@
 RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org/new
 
 
-git fetch origin
+git fetch -t origin
 
 MASTER_SHA=$(git rev-parse master)
 ORIGIN_MASTER_SHA=$(git rev-parse origin/master)
