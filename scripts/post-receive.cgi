@@ -17,7 +17,7 @@ RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org/new
 
 
 build_branch() {
-    echo "building branch $REF_NAME (commit $AFTER)" 1>&2
+    echo "building branch $REF_NAME (commit $AFTER)"
 
     DIR=$(mktemp --dir)
     git clone $REPO $DIR
@@ -40,7 +40,7 @@ END
 
 
 build_and_deploy_master() {
-    echo "building master (commit $AFTER)" 1>&2
+    echo "building master (commit $AFTER)"
 
     DIR=$(mktemp --dir)
     git clone $REPO $DIR
@@ -65,12 +65,12 @@ echo ""
 echo "hooked!"
 
 if [ "$REQUEST_METHOD" != "POST" ]; then
-    echo "unknown REQUEST_METHOD '$REQUEST_METHOD'" 1>&2
+    echo "unknown REQUEST_METHOD '$REQUEST_METHOD'"
     exit 1
 fi
 
 if [ -z "$CONTENT_LENGTH" ]; then
-    echo "no CONTENT_LENGTH specified" 1>&2
+    echo "no CONTENT_LENGTH specified"
     exit 1
 fi
 
@@ -81,7 +81,7 @@ DELETED=$(echo $CONTENT_POST | jq --raw-output .deleted)
 AFTER=$(echo $CONTENT_POST | jq --raw-output .after)
 
 if [ "$DELETED" = "true" ]; then
-    echo "ref $REF deleted, no build action required" 1>&2
+    echo "ref $REF deleted, no build action required"
     exit 0
 fi
 
@@ -89,15 +89,15 @@ REF_TYPE=$(dirname $REF)
 REF_NAME=$(basename $REF)
 
 if [ "$REF_TYPE" != "refs/heads" ]; then
-    echo "ref $REF is not a branch, no build action required" 1>&2
+    echo "ref $REF is not a branch, no build action required"
     exit 0
 fi
 
 if [ "$REF_NAME" = "master" ]; then
-    echo "branch is master, building and deploying to wlo" 1>&2
+    echo "branch is master, building and deploying to wlo"
     build_and_deploy_master
 else
-    echo "branch is not master, building for local deployment" 1>&2
+    echo "branch is not master, building for local deployment"
     build_branch
 fi
 
