@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% if site.data.version %}<!-- site built from {{ site.data.version }} -->{% endif %}
+
 <div><img src="images/screen_thumb.png" border="0"
   alt=" " width="350" height="250" style="float:right" /></div>
 Welcome to the home of **LinuxCNC**.
