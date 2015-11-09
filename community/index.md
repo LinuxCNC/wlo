@@ -56,10 +56,3 @@ documentation, translation, new drivers and components.
 * Bug Reports and Feature Requests are handled by the
   [Source Forge Tracking System](http://sourceforge.net/p/emc/bugs/).
 
-
-## Board
-
-If you want to address the [Board of
-Directors]({{site.baseurl}}/about/board-of-directors) about a
-governance issue, you can do that by sending email to the [board mailing
-list](mailto:emc-board@lists.sourceforge.net).
