@@ -1,0 +1,27 @@
+#!/bin/bash
+#set -x
+
+RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org/new
+
+
+git fetch origin
+
+MASTER_SHA=$(git rev-parse master)
+ORIGIN_MASTER_SHA=$(git rev-parse origin/master)
+
+if [ $MASTER_SHA = $ORIGIN_MASTER_SHA ] && [ "$1" != "--force" ]; then
+    echo "master and origin/master are the same, nothing to do"
+    echo "run with --force to do it anyway"
+    exit 0
+fi
+
+git reset --hard
+git checkout master
+git reset --hard origin/master
+
+
+jekyll build --trace || exit 1
+
+
+rsync -e 'ssh -i /home/seb/.ssh/wlo' --archive --quiet _site/ $RSYNC_DEST
+
