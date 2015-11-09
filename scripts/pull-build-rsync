@@ -20,6 +20,7 @@ git checkout master
 git reset --hard origin/master
 
 
+./scripts/update-version
 jekyll build --trace || exit 1
 
 

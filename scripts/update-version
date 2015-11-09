@@ -1,0 +1,4 @@
+#!/bin/bash
+
+git describe --dirty >| _data/version.yml
+
