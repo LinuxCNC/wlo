@@ -15,7 +15,7 @@ Here you'll find information [about the software][about],
 [how to get it][download], [how to configure it][configure],
 [how to use it][use], and especially [where to ask for help][community].
 
-Our community maintained [wiki][wiki] contains lots of information and examples about configuration and using LinuxCNC.
+Our community-maintained [wiki][wiki] contains lots of information and examples about configuration and using LinuxCNC.
 
 LinuxCNC uses a Hardware Abstraction layer that allows you to adapt it to many
 kinds of machinery, and includes elements like a software PLC controller
