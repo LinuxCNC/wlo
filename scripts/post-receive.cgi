@@ -59,6 +59,10 @@ build_and_deploy_master() {
 }
 
 
+kgb() {
+    kgb-client --conf /etc/kgb-client.conf --relay-msg "$*"
+}
+
 
 echo "Content-type: text/html"
 echo ""
@@ -77,16 +81,17 @@ fi
 read -r -n $CONTENT_LENGTH CONTENT_POST
 
 REF=$(echo $CONTENT_POST | jq --raw-output .ref)
+REF_TYPE=$(dirname $REF)
+REF_NAME=$(basename $REF)
+
 DELETED=$(echo $CONTENT_POST | jq --raw-output .deleted)
 AFTER=$(echo $CONTENT_POST | jq --raw-output .after)
 
 if [ "$DELETED" = "true" ]; then
     echo "ref $REF deleted, no build action required"
+    kgb $REF_NAME branch deleted
     exit 0
 fi
-
-REF_TYPE=$(dirname $REF)
-REF_NAME=$(basename $REF)
 
 if [ "$REF_TYPE" != "refs/heads" ]; then
     echo "ref $REF is not a branch, no build action required"
@@ -96,9 +101,11 @@ fi
 if [ "$REF_NAME" = "master" ]; then
     echo "branch is master, building and deploying to wlo"
     build_and_deploy_master
+    kgb push to master branch: http://linuxcnc.org/new
 else
     echo "branch is not master, building for local deployment"
     build_branch
+    kgb push to $REF_NAME branch: http://wlo-test.highlab.com/$REF_NAME
 fi
 
 exit 0
