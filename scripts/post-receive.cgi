@@ -74,7 +74,7 @@ if [ -z "$CONTENT_LENGTH" ]; then
     exit 1
 fi
 
-read -n $CONTENT_LENGTH CONTENT_POST
+read -r -n $CONTENT_LENGTH CONTENT_POST
 
 REF=$(echo $CONTENT_POST | jq --raw-output .ref)
 DELETED=$(echo $CONTENT_POST | jq --raw-output .deleted)
