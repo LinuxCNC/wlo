@@ -7,9 +7,8 @@ layout: page
 <div><img src="images/screen_thumb.png" border="0" alt=" " width="350"
 height="250" style="float:right" /></div>
 
-LinuxCNC is software that interfaces with hardware to control CNC
-machines.  It can drive milling machines, lathes, 3d printers, laser
-cutters, plasma cutters, robot arms, hexapods, and more:
+LinuxCNC controls CNC machines.  It can drive milling machines, lathes, 3d
+printers, laser cutters, plasma cutters, robot arms, hexapods, and more:
 
 * Runs under Linux (optionally with realtime extensions).
 
