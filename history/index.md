@@ -44,7 +44,7 @@ trajectory planning and PID loop control was added to the existing user
 interface and RS274 interpreter. Matt successfully used this version to
 upgrade a couple of machines with dead controls and this became the EMC
 system that first caught the attention of the outside world. Mention of
-EMC on the Rec.Crafts.Metalworking USENET discussion group resulted in
+EMC on the rec.crafts.metalworking USENET newsgroup resulted in
 early adopters like Jon Elson building systems to take advantage of EMC.
 
 NIST set up a mailing list for people interested in EMC. As time went
