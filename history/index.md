@@ -86,5 +86,5 @@ was held. Organization was loose, but the idea of a hardware abstraction
 layer (HAL) was born and the movement to restructure the code for ease
 of development (**EMC2**) was proposed.
 
-The EMC2 open-source project was sued by the EMC Corporation in 2011
-and rebranded to the LinuxCNC name used today.
+In 2011, EMC2 was renamed LinuxCNC at the insistence of EMC Corporation's
+trademark lawyers.
