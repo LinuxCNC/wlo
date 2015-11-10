@@ -10,7 +10,8 @@ height="250" style="float:right" /></div>
 LinuxCNC controls CNC machines.  It can drive milling machines, lathes, 3d
 printers, laser cutters, plasma cutters, robot arms, hexapods, and more:
 
-* Runs under Linux (optionally with realtime extensions).
+* Runs under Linux (optionally with realtime extensions).  Simple
+  installation on Debian and Ubuntu, or via our Live/Install images.
 
 * Accepts G-code input, drives CNC machines in response.
 
