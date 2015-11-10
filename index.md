@@ -4,35 +4,39 @@ layout: default
 
 {% if site.data.version %}<!-- site built from {{ site.data.version }} -->{% endif %}
 
-<div><img src="images/screen_thumb.png" border="0"
-  alt=" " width="350" height="250" style="float:right" /></div>
-Welcome to the home of **LinuxCNC**.
+<div><img src="images/screen_thumb.png" border="0" alt=" " width="350"
+height="250" style="float:right" /></div>
 
-LinuxCNC is Free software licensed under the terms of the [GNU
-GPLv2 (General Public License version 2][GPLv2] for realtime control of 
-machines such as milling machines, lathes, plasma cutters, cutting machines,
-robots, hexapods, etc.
+LinuxCNC is software that interfaces with hardware to control CNC
+machines.  It can drive milling machines, lathes, 3d printers, laser
+cutters, plasma cutters, robot arms, hexapods, and more:
 
-Our community-maintained [wiki][wiki] contains lots of information and examples about configuration and using LinuxCNC.
+* Runs under Linux (optionally with realtime extensions).
 
-LinuxCNC uses a Hardware Abstraction layer that allows you to adapt it to many
-kinds of machinery, and includes a software PLC controller and an advanced
-trajectory planner.
+* Accepts G-code input, drives CNC machines in response.
 
-Note: Do Not upgrade the Linux operating system from the installed version as it will prevent LinuxCNC from working as a specific kernel is required.
+* Active user community.
+
+* Several different GUIs available.
+
+* Compatible with many popular machine control harware interfaces.
+
+* Supports rigid tapping, cutter compensation, and many other advanced
+  control features.
+
+* Full source code available under under the terms of the [GNU GPLv2
+  (General Public License version 2][GPLv2].
 
 # News
+<ul class="posts">
+  {% for post in site.posts limit:4 %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
-  <ul class="posts">
-    {% for post in site.posts limit:4 %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
- [GPLv2]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
- [wiki]: http://wiki.linuxcnc.org/
+[GPLv2]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
