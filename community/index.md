@@ -9,7 +9,7 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## Users
 
-Use these methods for help setting up and using LinuxCNC , and for
+Use these methods for help setting up and using LinuxCNC, and for
 general CNC topics.
 
 * The primary means of contact is to join the [users' mailing
@@ -34,7 +34,7 @@ general CNC topics.
 
 ## Developers
 
-Use these methods to contribute to the development of LinuxCNC , including
+Use these methods to contribute to the development of LinuxCNC, including
 documentation, translation, new drivers and components.
 
 * Contribute to the development of LinxCNC
