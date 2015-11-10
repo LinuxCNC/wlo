@@ -1,6 +1,7 @@
 ---
 layout: page
-title: EMC History
+navbar: yes
+title: History
 joomla_id: 6
 joomla_url: emc-history
 date: 2006-02-27 14:44:52.000000000 -07:00
