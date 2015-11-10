@@ -4,8 +4,7 @@ layout: page
 
 {% if site.data.version %}<!-- site built from {{ site.data.version }} -->{% endif %}
 
-<div><img src="images/screen_thumb.png" border="0" alt=" " width="350"
-height="250" style="float:right" /></div>
+<div><img src="images/linuxcnc-screenshot-small.png" border="0" alt="" style="float:right"/></div>
 
 LinuxCNC controls CNC machines.  It can drive milling machines, lathes, 3d
 printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
