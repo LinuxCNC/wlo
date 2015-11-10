@@ -21,13 +21,13 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 
 * Several different GUIs available.
 
-* Compatible with many popular machine control harware interfaces.
+* Compatible with many popular machine control hardware interfaces.
 
 * Supports rigid tapping, cutter compensation, and many other advanced
   control features.
 
 * Full source code available under under the terms of the [GNU GPLv2
-  (General Public License version 2][GPLv2].
+  (General Public License version 2)][GPLv2].
 
 # News
 <ul class="posts">
