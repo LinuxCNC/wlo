@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 {% if site.data.version %}<!-- site built from {{ site.data.version }} -->{% endif %}
