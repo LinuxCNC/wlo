@@ -2,7 +2,7 @@
 title: LinuxCNC
 email: emc-developers@lists.sourceforge.net
 description: "LinuxCNC: an open source CNC machine controller"
-baseurl: "/new"
+baseurl: ""
 url: "http://linuxcnc.org"
 exclude: [ scripts, README.md ]
 #twitter_username: jekyllrb
