@@ -1,6 +1,6 @@
 ---
 layout: page
-navbar: yep
+navbar: no
 title: News
 ---
 
