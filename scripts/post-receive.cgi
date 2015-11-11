@@ -13,7 +13,7 @@
 REPO=https://github.com/SebKuzminsky/wlo
 
 # this is where we rsync the built site from the master branch
-RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org/new
+RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org
 
 
 build_branch() {
@@ -101,7 +101,7 @@ fi
 if [ "$REF_NAME" = "master" ]; then
     echo "branch is master, building and deploying to wlo"
     build_and_deploy_master
-    kgb push to master branch: http://linuxcnc.org/new
+    kgb push to master branch: http://linuxcnc.org/
 else
     echo "branch is not master, building for local deployment"
     build_branch
