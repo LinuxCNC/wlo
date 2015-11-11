@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Updated Website'
+date: 2015-11-10 21:16:05.000000000 -07:00
 ---
 The [linuxcnc.org](http://linuxcnc.org) website has received a long
 overdue refresh.
