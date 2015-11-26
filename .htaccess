@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^docview/(.*)$ /docs/$1 [R,L]
+RewriteRule ^docview$ /docs [R,L]
+
+RewriteRule ^.*/forum/(.*)$ https://forum.linuxcnc.org/forum/$1 [R,L]
+RewriteRule ^.*/forum$ https://forum.linuxcnc.org/ [R,L]
+

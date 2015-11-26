@@ -5,6 +5,7 @@ description: "LinuxCNC: an open source CNC machine controller"
 baseurl: ""
 url: "http://linuxcnc.org"
 exclude: [ scripts, README.md ]
+include: [ .htaccess ]
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
