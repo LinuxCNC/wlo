@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New RTAI kernel'
+title: 'New RTAI kernel: Linux 3.16.7 with RTAI 5.0-test1'
 date: 2015-11-29 10:33:31.000000000 -07:00
 ---
 New RTAI kernel packages are available for Debian Jessie, based on Linux
