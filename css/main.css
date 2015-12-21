@@ -136,6 +136,14 @@ a:visited { color: #205caa; }
   color: #828282;
 }
 
+.site-footer .legal { clear: both; }
+
+.site-footer .legal p {
+  font-size: 9px;
+  letter-spacing: -.3px;
+  color: #828282;
+}
+
 .github-icon-svg,
 .twitter-icon-svg {
   display: inline-block;
