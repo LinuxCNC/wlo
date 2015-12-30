@@ -3,6 +3,9 @@ layout: post
 title: 'New RTAI kernel: Linux 3.16.7 with RTAI 5.0-test1'
 date: 2015-11-29 10:33:31.000000000 -07:00
 ---
+Update: RTAI-5 support has been merged into mainline.  The 2.7 and master
+branches build and run right out of the box.
+
 New RTAI kernel packages are available for Debian Jessie, based on Linux
 3.16.7 and RTAI 5.0-test1.
 
