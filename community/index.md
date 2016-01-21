@@ -42,7 +42,7 @@ Use these methods to contribute to the development of LinuxCNC, including
 documentation, translation, new drivers and components.
 
 * [Contributing to
-LinuxCNC](/docs/html/code/Contributing-to-LinuxCNC.html).
+LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
 
 * The primary means of communication is the [developers' mailing
   list](http://lists.sourceforge.net/lists/listinfo/emc-developers)
