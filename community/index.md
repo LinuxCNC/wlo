@@ -31,9 +31,7 @@ CNC topics.
   contains a wealth of user contributed information about LinuxCNC and
   CNC in general.
 
-* [Bug Reports](http://sourceforge.net/p/emc/bugs/) and [Feature
-  Requests](http://sourceforge.net/p/emc/feature-requests/) are handled
-  by the SourceForge ticket system.
+* [Issues](https://github.com/LinuxCNC/linuxcnc/issues) and [Pull Requests](https://github.com/LinuxCNC/linuxcnc/pulls) are handled by github.
 
 
 ## Developers
