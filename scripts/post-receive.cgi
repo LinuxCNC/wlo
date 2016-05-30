@@ -10,7 +10,7 @@
 #set -x
 
 # this is what we clone
-REPO=https://github.com/SebKuzminsky/wlo
+REPO=https://github.com/LinuxCNC/wlo
 
 # this is where we rsync the built site from the master branch
 RSYNC_DEST=emcboard@www.linuxcnc.org:www.linuxcnc.org
