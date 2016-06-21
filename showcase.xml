@@ -11,7 +11,13 @@ layout: none
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.showcase limit:10 %}
+    {% comment %}
+        A bug in liquid means that you have to do this dance to reverse and
+        limit or offset a list.  They haven't applied a fix for it due to backwards
+        compatibility concerns.  https://github.com/Shopify/liquid/pull/456
+    {% endcomment %}
+    {% assign showcase = site.showcase | sort 'date' | reverse %}
+    {% for post in showcase limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | markdownify | xml_escape }}</description>

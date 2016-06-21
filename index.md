@@ -46,7 +46,13 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 
 <div class="posts" id="site-showcase">
   <h1>Showcases</h1>
-  {% for post in site.showcase limit:1 %}
+    {% comment %}
+        A bug in liquid means that you have to do this dance to reverse and
+        limit or offset a list.  They haven't applied a fix for it due to backwards
+        compatibility concerns.  https://github.com/Shopify/liquid/pull/456
+    {% endcomment %}
+    {% assign showcase = site.showcase | sort 'date' | reverse %}
+  {% for post in showcase reversed limit:1 %}
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h2>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -58,7 +64,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
     </div>
   {% endfor %}
   <ul class="posts">
-    {% for post in site.showcase limit:4 offset:1 %}
+    {% for post in showcase limit:4 offset:1 %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

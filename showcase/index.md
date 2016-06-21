@@ -22,7 +22,13 @@ our users to do.
   <h1>All Showcases</h1>
 
   <ul class="posts">
-    {% for post in site.showcase %}
+    {% comment %}
+        A bug in liquid means that you have to do this dance to reverse and
+        limit or offset a list.  They haven't applied a fix for it due to backwards
+        compatibility concerns.  https://github.com/Shopify/liquid/pull/456
+    {% endcomment %}
+    {% assign showcase = site.showcase | sort 'date' | reverse %}
+    {% for post in showcase %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
