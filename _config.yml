@@ -23,3 +23,6 @@ github_username:  LinuxCNC
 # Build settings
 markdown: kramdown
 permalink: pretty
+collections:
+  showcase:
+    output: true

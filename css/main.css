@@ -435,3 +435,12 @@ a:visited { color: #205caa; }
     margin: 0 0 15px; }
 
 }
+
+@media screen and (min-width: 850px) {
+    #site-showcase { max-width: 50%;float: left; }
+    #site-news { max-width: 50%; float: left; }
+}
+
+.post-date + h2 { margin-top: -18px; }
+
+#site-showcase ul.posts { margin-top: 30px; }
