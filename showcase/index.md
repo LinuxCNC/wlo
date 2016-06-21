@@ -19,7 +19,7 @@ our users to do.
 
 <div class="home">
 
-  <h1>All Showcase</h1>
+  <h1>All Showcases</h1>
 
   <ul class="posts">
     {% for post in site.showcase %}

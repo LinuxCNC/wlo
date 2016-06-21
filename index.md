@@ -45,7 +45,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 </div>
 
 <div class="posts" id="site-showcase">
-  <h1>Showcase</h1>
+  <h1>Showcases</h1>
   {% for post in site.showcase limit:1 %}
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h2>
@@ -64,9 +64,9 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
-      <li><a class="post-link" href="showcase/">Older showcase...</a></li>
+      <li><a class="post-link" href="showcase/">Older showcases...</a></li>
   </ul>
-  <p class="rss-subscribe">subscribe to showcase <a href="{{ "/showcase.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe to Showcases <a href="{{ "/showcase.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
 
 [GPLv2]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
