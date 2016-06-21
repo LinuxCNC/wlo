@@ -250,7 +250,7 @@ a:visited { color: #205caa; }
 }
 
 .post-content ul,
-.post-content ol { padding-left: 20px; }
+.post-content ol { padding-left: 0px; }
 
 .post pre,
 .post code {
@@ -267,7 +267,7 @@ a:visited { color: #205caa; }
 .post code { padding: 1px 5px; }
 
 .post ul,
-.post ol { margin-left: 1.35em; }
+.post ol { margin-left: 0; }
 
 .post pre code {
   border: 0;
