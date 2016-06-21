@@ -29,17 +29,44 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 * Full source code available under under the terms of the [GNU GPLv2
   (General Public License version 2)][GPLv2].
 
-# News
-<ul class="posts">
-  {% for post in site.posts limit:4 %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-    <li><a class="post-link" href="news/">Older news...</a></li>
-</ul>
+<div id="site-news">
+  <h1>News</h1>
+  <ul class="posts">
+    {% for post in site.posts limit:4 %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+      <li><a class="post-link" href="news/">Older news...</a></li>
+  </ul>
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
+
+<div class="posts" id="site-showcase">
+  <h1>Showcase</h1>
+  {% for post in site.showcase limit:1 %}
+    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <h2>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <div class="content">
+    {{post.content | markdownify }}
+    </div>
+  {% endfor %}
+  <ul class="posts">
+    {% for post in site.showcase limit:4 offset:1 %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+      <li><a class="post-link" href="showcase/">Older showcase...</a></li>
+  </ul>
+  <p class="rss-subscribe">subscribe to showcase <a href="{{ "/showcase.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
 
 [GPLv2]: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html

@@ -18,8 +18,11 @@ url: "http://linuxcnc.org"
 exclude: [ scripts, README.md ]
 include: [ .htaccess ]
 #twitter_username: jekyllrb
-#github_username:  jekyll
+github_username:  LinuxCNC
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+collections:
+  showcase:
+    output: true
