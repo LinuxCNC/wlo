@@ -32,7 +32,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 <div id="site-news">
   <h1>News</h1>
   <ul class="posts">
-    {% for post in site.posts limit:4 %}
+    {% for post in site.posts limit:10 %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
