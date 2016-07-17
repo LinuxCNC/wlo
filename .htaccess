@@ -5,3 +5,7 @@ RewriteRule ^docview$ /docs [R,L]
 RewriteRule ^.*/forum/(.*)$ https://forum.linuxcnc.org/forum/$1 [R,L]
 RewriteRule ^.*/forum$ https://forum.linuxcnc.org/ [R,L]
 
+<IfModule mod_expires.c>
+        ExpiresActive On
+        ExpiresByType text/html "access plus 86400 seconds"
+</IfModule>
