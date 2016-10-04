@@ -1,7 +1,7 @@
 ---
 layout: page
 navbar: no
-title: News
+title: All Showcases
 ---
 
 Do you have a machine or project you'd like to see featured on the showcase?
