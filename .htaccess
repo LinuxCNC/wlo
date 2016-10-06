@@ -5,7 +5,15 @@ RewriteRule ^docview$ /docs [R,L]
 RewriteRule ^.*/forum/(.*)$ https://forum.linuxcnc.org/forum/$1 [R,L]
 RewriteRule ^.*/forum$ https://forum.linuxcnc.org/ [R,L]
 
+# Expire headers 86400 seconds -> 1 day
 <IfModule mod_expires.c>
         ExpiresActive On
+        ExpiresByType image/gif "access plus 86400 seconds"
+        ExpiresByType image/ico "access plus 86400 seconds"
+        ExpiresByType image/jpg "access plus 86400 seconds"
+        ExpiresByType image/png "access plus 86400 seconds"
+        ExpiresByType image/x-icon "access plus 86400 seconds"
+        ExpiresByType text/css "access plus 86400 seconds"
         ExpiresByType text/html "access plus 86400 seconds"
+        ExpiresByType text/javascript "access plus 86400 seconds"
 </IfModule>
