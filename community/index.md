@@ -16,10 +16,9 @@ CNC topics.
   place to discuss LinuxCNC.
 
 * There is a [users' mailing
-  list](http://lists.sourceforge.net/lists/listinfo/emc-users)
-  hosted at SourceForge.  It is archived at
-  [gmane](http://news.gmane.org/gmane.linux.distributions.emc.user)
-  and at [SourceForge](https://sourceforge.net/p/emc/mailman/emc-users/).
+  list](http://lists.sourceforge.net/lists/listinfo/emc-users) hosted
+  and [archived](https://sourceforge.net/p/emc/mailman/emc-users/)
+  at SourceForge.
 
 * The other preferred way to contact us is on
   [IRC](http://webchat.freenode.net/?channels=%23linuxcnc),
@@ -43,10 +42,9 @@ documentation, translation, new drivers and components.
 LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
 
 * The primary means of communication is the [developers' mailing
-  list](http://lists.sourceforge.net/lists/listinfo/emc-developers)
-  hosted at SourceForge.  The list is archived at
-  [gmane](http://news.gmane.org/gmane.linux.distributions.emc.devel) and
-  at [SourceForge](https://sourceforge.net/p/emc/mailman/emc-developers/).
+  list](http://lists.sourceforge.net/lists/listinfo/emc-developers) hosted
+  and [archived](https://sourceforge.net/p/emc/mailman/emc-developers/)
+  at SourceForge.
 
 * The other preferred way to contact us is on
   [IRC](http://webchat.freenode.net/?channels=%23linuxcnc-devel),
