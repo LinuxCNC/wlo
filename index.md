@@ -26,7 +26,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 * Supports rigid tapping, cutter compensation, and many other advanced
   control features.
 
-* Full source code available under under the terms of the [GNU GPLv2
+* Full source code available under the terms of the [GNU GPLv2
   (General Public License version 2)][GPLv2].
 
 <div id="site-news">
