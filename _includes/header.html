@@ -37,7 +37,11 @@
   </div>
 
   <center class="releases">
-    Current releases:
+    {% if site.data.releases.size > 1 %}
+        Current releases:
+    {% else %}
+        Current release:
+    {% endif %}
     {% for release in site.data.releases %}
         <a href="{{site.baseurl}}/{{release.link}}">{{release.name}}</a>
     {% endfor %}
