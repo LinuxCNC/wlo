@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'LinuxCNC Meetup in Stuttgart, 2018 July 20'
+title: 'LinuxCNC Meetup in Stuttgart'
 date: 2018-06-05 13:28:05.000000000 -07:00
 ---
 There will be a meeting of LinuxCNC developers, users, and enthusiasts
