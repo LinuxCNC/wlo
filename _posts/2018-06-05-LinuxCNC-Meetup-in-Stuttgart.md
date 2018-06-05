@@ -12,4 +12,4 @@ no entrance fee, no badges, no speakers, and no set agenda.  It is a
 chance for people interested in LinuxCNC to meet each other, show off
 their projects, and talk about issues, fears, hopes, and dreams.
 
-More details here: https://doodle.com/poll/rrzknkwiaukwgrar
+More details here: [https://doodle.com/poll/rrzknkwiaukwgrar](https://doodle.com/poll/rrzknkwiaukwgrar)
