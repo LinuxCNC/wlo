@@ -26,7 +26,7 @@ CNC topics.
   with your own client can be found on FreeNode's [how to use the
   network](http://freenode.net/using_the_network.shtml) page.
   
-* We also have a [Discord](discord.gg/X3zKzhc) server.
+* We also have a [Discord](https://discord.gg/X3zKzhc) server.
 
 * The LinuxCNC [Wiki](http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl)
   contains a wealth of user contributed information about LinuxCNC and
