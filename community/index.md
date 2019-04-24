@@ -49,4 +49,6 @@ LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
 * The other preferred way to contact us is on
   [IRC](http://webchat.freenode.net/?channels=%23linuxcnc-devel),
   (#linuxcnc-devel on irc.freenode.net).
+  
+* We also have a [Discord](discord.gg/X3zKzhc) server.
 
