@@ -16,9 +16,9 @@ date: 2006-02-27 14:42:54.000000000 -07:00
   [HTML Documents](http://linuxcnc.org/docs/2.3/html/)
 * EMC2 2.4 [PDF Documents](http://linuxcnc.org/docs/2.4/) or 
   [HTML Documents](http://linuxcnc.org/docs/2.4/html/)
-* EMC2 2.5 [PDF Documents](http://linuxcnc.org/docs/2.5/) or 
+* LinuxCNC 2.5 [PDF Documents](http://linuxcnc.org/docs/2.5/) or 
   [HTML Documents](http://linuxcnc.org/docs/2.5/html/)
-* EMC2 2.6 [PDF Documents](http://linuxcnc.org/docs/2.6/) or 
+* LinuxCNC 2.6 [PDF Documents](http://linuxcnc.org/docs/2.6/) or 
   [HTML Documents](http://linuxcnc.org/docs/2.6/html/)
 
 
