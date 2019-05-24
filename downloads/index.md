@@ -35,6 +35,7 @@ way to get the 2.8 (master) version. If you have a gantry type of machine the
 
 * [LinuxCNC Buildbot](http://buildbot.linuxcnc.org/)
 
-
+More information on downloading and installing is in the
+[LinuxCNC Documents](http://linuxcnc.org/docs/2.7/html/getting-started/getting-linuxcnc.html)
 
 
