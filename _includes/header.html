@@ -26,7 +26,6 @@
         {% for page in site.pages %}
           {% if page.navbar AND page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
-        <a class="page-link" href="{{ site.url }}/docs/2.7/html/getting-started/getting-linuxcnc.html">Download</a>
         <a class="page-link" href="https://forum.linuxcnc.org/">Forum</a>
         <a class="page-link" href="http://wiki.linuxcnc.org/">Wiki</a>
         <a class="page-link" href="https://github.com/LinuxCNC/linuxcnc">Source</a>
