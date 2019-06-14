@@ -39,3 +39,16 @@ More information on downloading and installing is in the
 [LinuxCNC Documents](http://linuxcnc.org/docs/2.7/html/getting-started/getting-linuxcnc.html)
 
 
+## LinuxCNC Packages
+
+LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
+from the command line or with GDebi as a graphical install method. You will need
+to have a Preempt RT kernel to run Uspace.
+
+* [LinuxCNC Uspace 2.7.14 64bit](http://linuxcnc.org/dists/stretch/2.7-uspace/binary-amd64/linuxcnc-uspace_2.7.14_amd64.deb)
+
+* [LinuxCNC Uspace 2.7.14 32bit](http://linuxcnc.org/dists/stretch/2.7-uspace/binary-i386/linuxcnc-uspace_2.7.14_i386.deb)
+
+* [LinuxCNC Uspace 2.7.14 Docs](http://linuxcnc.org/dists/stretch/2.7-uspace/binary-amd64/linuxcnc-doc-en_2.7.14_all.deb)
+
+* [LinuxCNC Uspace 2.7.14  Dev](http://linuxcnc.org/dists/stretch/2.7-uspace/binary-amd64/linuxcnc-uspace-dev_2.7.14_amd64.deb)
