@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'LinuxCNC Meetup in Kosovo'
-date: 2019-31-07 22:55:00.000000000 +00:00
+date: 2019-07-31 22:55:00.000000000 +00:00
 ---
 After discusing with CliveS who will be visiting from 16 to 20'th september, we are inviting
 anyone else who would like to join us.
