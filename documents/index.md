@@ -9,17 +9,17 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## LinuxCNC 2.7 Documents
 
-* LinuxCNC 2.7 [PDF Documents](http://linuxcnc.org/docs/2.7/) or 
+* LinuxCNC 2.7 [PDF Documents](http://linuxcnc.org/docs/2.7/pdf) or
   [HTML Documents](http://linuxcnc.org/docs/2.7/html/)
 
 ## LinuxCNC 2.8 Documents
 
-* LinuxCNC 2.8 [PDF Documents](http://linuxcnc.org/docs/2.8/) or 
+* LinuxCNC 2.8 [PDF Documents](http://linuxcnc.org/docs/2.8/pdf) or
   [HTML Documents](http://linuxcnc.org/docs/2.8/html/)
 
 
 ## LinuxCNC 2.9 pre (Master) Documents
 
-* LinuxCNC 2.9 [PDF Documents](http://linuxcnc.org/docs/devel/) or 
+* LinuxCNC 2.9 [PDF Documents](http://linuxcnc.org/docs/devel/pdf) or
   [HTML Documents](http://linuxcnc.org/docs/devel/html/)
 
