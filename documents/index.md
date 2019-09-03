@@ -2,24 +2,26 @@
 layout: page
 title: Documents
 navbar: true
-joomla_id: 5
-joomla_url: documents
 date: 2006-02-27 14:42:54.000000000 -07:00
 ---
 
-## LinuxCNC 2.7 Documents
+## Current stable version
 
-* LinuxCNC 2.7 [PDF Documents](http://linuxcnc.org/docs/2.7/pdf) or
-  [HTML Documents](http://linuxcnc.org/docs/2.7/html/)
-
-## LinuxCNC 2.8 Documents
-
-* LinuxCNC 2.8 [PDF Documents](http://linuxcnc.org/docs/2.8/pdf) or
-  [HTML Documents](http://linuxcnc.org/docs/2.8/html/)
+| Linuxcnc 2.7 ([HTML](http://linuxcnc.org/docs/2.7/html/)) ([PDF](http://linuxcnc.org/docs/2.7/pdf)) |
 
 
-## LinuxCNC 2.9 pre (Master) Documents
+## Future versions (not yet released!)
 
-* LinuxCNC 2.9 [PDF Documents](http://linuxcnc.org/docs/devel/pdf) or
-  [HTML Documents](http://linuxcnc.org/docs/devel/html/)
+| LinuxCNC 2.8 prerelease ([HTML](http://linuxcnc.org/docs/2.8/html/)) ([PDF](http://linuxcnc.org/docs/2.8/pdf))
+| LinuxCNC 2.9 prerelease (aka master or devel) ([HTML](http://linuxcnc.org/docs/devel/html/)) ([PDF](http://linuxcnc.org/docs/devel/pdf))
 
+
+## Older versions
+
+| LinuxCNC 2.6 ([HTML](http://linuxcnc.org/docs/2.6/html/)) ([PDF](http://linuxcnc.org/docs/2.6/pdf)) |
+| LinuxCNC 2.5 ([HTML](http://linuxcnc.org/docs/2.5/html/)) ([PDF](http://linuxcnc.org/docs/2.5/pdf)) |
+| LinuxCNC 2.4 ([HTML](http://linuxcnc.org/docs/2.4/html/)) ([PDF](http://linuxcnc.org/docs/2.4/pdf)) |
+| LinuxCNC 2.3 ([HTML](http://linuxcnc.org/docs/2.3/html/)) ([PDF](http://linuxcnc.org/docs/2.3/pdf)) |
+| LinuxCNC 2.2 ([HTML](http://linuxcnc.org/docs/2.2/html/)) ([PDF](http://linuxcnc.org/docs/2.2/pdf)) |
+| LinuxCNC 2.1 ([HTML](http://linuxcnc.org/docs/2.1/html/)) ([PDF](http://linuxcnc.org/docs/2.1/pdf)) |
+| LinuxCNC 2.0 ([HTML](http://linuxcnc.org/docs/2.0/html/)) ([PDF](http://linuxcnc.org/docs/2.0/pdf)) |
