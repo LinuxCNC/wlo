@@ -20,8 +20,8 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 | LinuxCNC 2.6 ([HTML](http://linuxcnc.org/docs/2.6/html/)) ([PDF](http://linuxcnc.org/docs/2.6/pdf)) |
 | LinuxCNC 2.5 ([HTML](http://linuxcnc.org/docs/2.5/html/)) ([PDF](http://linuxcnc.org/docs/2.5/pdf)) |
-| LinuxCNC 2.4 ([HTML](http://linuxcnc.org/docs/2.4/html/)) ([PDF](http://linuxcnc.org/docs/2.4/pdf)) |
-| LinuxCNC 2.3 ([HTML](http://linuxcnc.org/docs/2.3/html/)) ([PDF](http://linuxcnc.org/docs/2.3/pdf)) |
-| LinuxCNC 2.2 ([HTML](http://linuxcnc.org/docs/2.2/html/)) ([PDF](http://linuxcnc.org/docs/2.2/pdf)) |
-| LinuxCNC 2.1 ([HTML](http://linuxcnc.org/docs/2.1/html/)) ([PDF](http://linuxcnc.org/docs/2.1/pdf)) |
-| LinuxCNC 2.0 ([HTML](http://linuxcnc.org/docs/2.0/html/)) ([PDF](http://linuxcnc.org/docs/2.0/pdf)) |
+| LinuxCNC 2.4 ([HTML](http://linuxcnc.org/docs/2.4/html/)) ([PDF](http://linuxcnc.org/docs/2.4/)) |
+| LinuxCNC 2.3 ([HTML](http://linuxcnc.org/docs/2.3/html/)) ([PDF](http://linuxcnc.org/docs/2.3/)) |
+| LinuxCNC 2.2 ([HTML](http://linuxcnc.org/docs/2.2/html/)) ([PDF](http://linuxcnc.org/docs/2.2/)) |
+| LinuxCNC 2.1 ([HTML](http://linuxcnc.org/docs/2.1/html)) ([PDF](http://linuxcnc.org/docs/2.1/)) |
+| LinuxCNC 2.0 ([PDF](http://linuxcnc.org/docs/2.0/)) |
