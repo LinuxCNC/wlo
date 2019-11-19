@@ -1,6 +1,6 @@
 # Site settings
-title: LinuxCNC
-email: emc-developers@lists.sourceforge.net
+
+
 description: "LinuxCNC: an open source CNC machine controller. It can drive milling machines, lathes, 3d printers, laser cutters, plasma cutters, robot arms, hexapods, and more."
 legal: "\
     <p>LINUX® is the registered trademark of Linus Torvalds in the U.S. and \
@@ -18,7 +18,6 @@ url: "http://linuxcnc.org"
 exclude: [ scripts, README.md ]
 include: [ .htaccess ]
 #twitter_username: jekyllrb
-github_username:  LinuxCNC
 
 # Build settings
 markdown: kramdown
