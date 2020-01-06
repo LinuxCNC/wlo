@@ -9,4 +9,4 @@ The tool continues to run through a simple pattern of squares while the workpiec
 <div>
 <a href="https://forum.linuxcnc.org/10-advanced-configuration/31813-tcp-5-axis-kinematics?start=120#139881">Forum Link</a>
 </div>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=MC0EnJ4XK2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MC0EnJ4XK2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
