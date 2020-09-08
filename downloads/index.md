@@ -27,7 +27,7 @@ experimental RTAI kernal as described in
 
 Raspberry Pi 4 Uspace compatable with Mesa Ethernet and SPI interface boards.
 
-* LinuxCNC 2.8 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
+* LinuxCNC 2.8.0 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
 
 ## LinuxCNC 2.7 Downloads
 
