@@ -17,10 +17,6 @@ This is compatible with all Mesa and Pico interface boards.
 
 * LinuxCNC 2.8.0 [Debian 10 Buster](http://www.linuxcnc.org/iso/linuxcnc-2.8.0-buster.iso)
 
-Raspberry Pi 4 Uspace compatable with Mesa Ethernet interface boards.
-
-* LinuxCNC 2.8 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
-
 Users requiring a known-stable RTAI installation can install the Wheezy 2.7
 image (below) and then upgrade as described in 
 [2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/updating-linuxcnc.html).
@@ -28,6 +24,10 @@ image (below) and then upgrade as described in
 The more adventerous can install the Buster ISO and then install the
 experimental RTAI kernal as described in 
 [2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
+
+Raspberry Pi 4 Uspace compatable with Mesa Ethernet and SPI interface boards.
+
+* LinuxCNC 2.8 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
 
 ## LinuxCNC 2.7 Downloads
 
