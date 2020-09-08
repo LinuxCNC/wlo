@@ -7,6 +7,19 @@ joomla_url: downloads
 date: 2006-02-27 14:42:54.000000000 -07:00
 ---
 
+## LinuxCNC 2.8 Downloads
+
+The Debian 10 Buster ISO uses a PREEMPT-RT patch which is closer to mainstream
+Linux but does not, in some cases, give quite such good realtime performance.
+It is very often more than good enough. It should probably be the first version
+tried even if using a parallel port. This is compatible with all Mesa and Pico
+interface boards.
+
+* LinuxCNC 2.8.0 [Debian 10 Buster] (http://www.linuxcnc.org/iso/linuxcnc-2.8.0-buster.iso)
+
+Raspberry Pi 4 Uspace compatable with Mesa Ethernet interface boards.
+
+* LinuxCNC 2.8 [Raspberry Pi OS based on Debian 10 Buster] (https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
 
 
 ## LinuxCNC 2.7 Downloads
