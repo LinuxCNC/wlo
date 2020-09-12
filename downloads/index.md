@@ -9,25 +9,28 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## LinuxCNC 2.8 Downloads
 
+* LinuxCNC 2.8.0 [Debian 10 Buster PREEMPT-RT](http://www.linuxcnc.org/iso/linuxcnc-2.8.0-buster.iso)
+
 The Debian 10 Buster ISO uses a PREEMPT-RT patch which is close to mainstream
 Linux but does not, in some cases, give quite such good realtime performance as
 the previous RTAI kernel. It is very often more than good enough. It should
 probably be the first version tried even if using a parallel port.
 This is compatible with all Mesa and Pico interface boards.
 
-* LinuxCNC 2.8.0 [Debian 10 Buster](http://www.linuxcnc.org/iso/linuxcnc-2.8.0-buster.iso)
+* LinuxCNC 2.8.0 [Debian 9 Wheezy RTAI](http://linuxcnc.org/docs/2.8/html/getting-started/updating-linuxcnc.html)
 
 Users requiring a known-stable RTAI installation can install the Wheezy 2.7
 image (below) and then upgrade as described in 
-[2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/updating-linuxcnc.html).
+2.8 documents.
+
+* LinuxCNC 2.8.0 [Debian 10 Buster RTAI](http://linuxcnc.org/docs/2.8/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
 
 The more adventerous can install the Buster ISO and then install the
-experimental RTAI kernal as described in 
-[2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
-
-Raspberry Pi 4 Uspace compatable with Mesa Ethernet and SPI interface boards.
+experimental RTAI kernal as described in 2.8 documents
 
 * LinuxCNC 2.8.0 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
+
+Raspberry Pi 4 Uspace compatable with Mesa Ethernet and SPI interface boards.
 
 ## LinuxCNC 2.7 Downloads
 
