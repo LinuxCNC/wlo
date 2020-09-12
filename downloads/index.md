@@ -17,7 +17,7 @@ the previous RTAI kernel. It is very often more than good enough. It should
 probably be the first version tried even if using a parallel port.
 This is compatible with all Mesa and Pico interface boards.
 
-* LinuxCNC 2.8.0 Debian 9 Wheezy RTAI
+* LinuxCNC 2.8.0 Debian 7 Wheezy RTAI
 
 Users requiring a known-stable RTAI installation can install the
 [Debian 7 Wheezy ISO](http://www.linuxcnc.org/iso/linuxcnc-2.7.14-wheezy.iso)
@@ -26,8 +26,8 @@ and then upgrade as described in
 
 * LinuxCNC 2.8.0 Debian 10 Buster RTAI
 
-The more adventerous can install the Buster ISO and then install the
-experimental RTAI kernal as described in 
+The more adventurous can install the Buster ISO and then install the
+experimental RTAI kernel as described in 
 [2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
 
 * LinuxCNC 2.8.0 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
