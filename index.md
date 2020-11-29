@@ -7,7 +7,7 @@ layout: page
 <div><img src="images/screen_thumb.png" border="0" alt=" " width="350"
 height="250" style="float:right" /></div>
 
-LinuxCNC controls CNC machines.  It can drive milling machines, lathes, 3d
+LinuxCNC controls CNC machines. It can drive milling machines, lathes, 3D
 printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 
 * Runs under Linux (optionally with realtime extensions).
@@ -38,7 +38,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
-      <li><a class="post-link" href="news/">Older news...</a></li>
+      <li><a class="post-link" href="news/">Older news…</a></li>
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
@@ -47,9 +47,9 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
 <div class="posts" id="site-showcase">
   <h1>Showcases</h1>
     {% comment %}
-        A bug in liquid means that you have to do this dance to reverse and
-        limit or offset a list.  They haven't applied a fix for it due to backwards
-        compatibility concerns.  https://github.com/Shopify/liquid/pull/456
+        A bug in liquid means you have to do this dance to reverse and
+        limit or offset a list. There is no fix upstream for it due to backwards
+        compatibility concerns. https://github.com/Shopify/liquid/pull/456
     {% endcomment %}
     {% assign showcase = site.showcase | sort 'date' | reverse %}
   {% for post in showcase reversed limit:1 %}
@@ -70,7 +70,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}
-      <li><a class="post-link" href="showcase/">Older showcases...</a></li>
+      <li><a class="post-link" href="showcase/">Older showcases…</a></li>
   </ul>
   <p class="rss-subscribe">subscribe to Showcases <a href="{{ "/showcase.xml" | prepend: site.baseurl }}">via RSS</a></p>
 </div>
