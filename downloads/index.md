@@ -30,7 +30,7 @@ The more adventurous can install the Buster ISO and then install the
 experimental RTAI kernel as described in 
 [2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
 
-* LinuxCNC 2.8.0 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.0-pi4.zip)
+* LinuxCNC 2.8.1 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.1-pi4.zip)
 
 Raspberry Pi 4 Uspace compatable with Mesa Ethernet and SPI interface boards.
 
