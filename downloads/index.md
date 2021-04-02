@@ -73,7 +73,7 @@ to have a Preempt RT kernel to run Uspace.
 * [LinuxCNC Uspace 2.8.1 64bit](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace_2.8.1_amd64.deb)
 
 * [LinuxCNC Uspace 2.8.1 32bit](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-i386/linuxcnc-uspace_2.8.1_i386.deb)
-* 
+
 * [LinuxCNC Uspace 2.8.1 armhf](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-armhf/linuxcnc-uspace_2.8.1_armhf.deb)
 
 * [LinuxCNC Uspace 2.8.1 Docs](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-en_2.8.1_all.deb)
