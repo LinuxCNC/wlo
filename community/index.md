@@ -26,7 +26,9 @@ CNC topics.
   with your own client can be found on FreeNode's [how to use the
   network](http://freenode.net/using_the_network.shtml) page.
   
-* We also have a [Discord](https://discord.gg/X3zKzhc) server.
+* A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org).
+
+* A community member has created a [Discord](https://discord.gg/X3zKzhc) server.
 
 * The LinuxCNC [Wiki](http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl)
   contains a wealth of user contributed information about LinuxCNC and
