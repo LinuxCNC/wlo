@@ -21,10 +21,10 @@ CNC topics.
   at SourceForge.
 
 * The other preferred way to contact us is on
-  [IRC](http://webchat.freenode.net/?channels=%23linuxcnc),
-  (#linuxcnc on irc.freenode.net).  More information about connecting
-  with your own client can be found on FreeNode's [how to use the
-  network](http://freenode.net/using_the_network.shtml) page.
+  [IRC](https://web.libera.chat/),
+  (#linuxcnc on irc.libera.chat).  More information about connecting
+  with your own client can be found on Libera's [how to use the
+  network](https://libera.chat/guides/connect) page.
   
 * A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org).
 
@@ -51,6 +51,6 @@ LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
   at SourceForge.
 
 * The other preferred way to contact us is on
-  [IRC](http://webchat.freenode.net/?channels=%23linuxcnc-devel),
-  (#linuxcnc-devel on irc.freenode.net).
+  [IRC](https://web.libera.chat/),
+  (#linuxcnc-devel on irc.libera.chat).
 
