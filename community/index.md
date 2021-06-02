@@ -9,8 +9,8 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## Users
 
-Use these methods for help setting up and using LinuxCNC, and for general
-CNC topics.
+*Use these methods for help setting up and using LinuxCNC, and for general
+CNC topics.*
 
 * The LinuxCNC [Forum](https://forum.linuxcnc.org/) is a user maintained
   place to discuss LinuxCNC.
@@ -20,11 +20,10 @@ CNC topics.
   and [archived](https://sourceforge.net/p/emc/mailman/emc-users/)
   at SourceForge.
 
-* The other preferred way to contact us is on
-  [IRC](http://webchat.freenode.net/?channels=%23linuxcnc),
-  (#linuxcnc on irc.freenode.net).  More information about connecting
-  with your own client can be found on FreeNode's [how to use the
-  network](http://freenode.net/using_the_network.shtml) page.
+* Our primary real-time chat is in the *#linuxcnc* channel on [irc.libera.chat](https://libera.chat).
+  You can use [web chat](https://web.libera.chat/) or
+  [connect with your own client](https://libera.chat/guides/connect).
+  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/libera/logs/%23linuxcnc/index.html) by community member Tom L., and historical logs from freenode are [also available](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc/index.html).
   
 * A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org).
 
@@ -39,10 +38,10 @@ CNC topics.
 
 ## Developers
 
-Use these methods to contribute to the development of LinuxCNC, including
-documentation, translation, new drivers and components.
+*Use these methods to contribute to the development of LinuxCNC, including
+documentation, translation, new drivers and components.*
 
-* [Contributing to
+* Learn more about [Contributing to
 LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
 
 * The primary means of communication is the [developers' mailing
@@ -50,7 +49,7 @@ LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
   and [archived](https://sourceforge.net/p/emc/mailman/emc-developers/)
   at SourceForge.
 
-* The other preferred way to contact us is on
-  [IRC](http://webchat.freenode.net/?channels=%23linuxcnc-devel),
-  (#linuxcnc-devel on irc.freenode.net).
-
+* Our primary real-time chat is in the *#linuxcnc-devel* channel on [irc.libera.chat](https://libera.chat).
+  You can use [web chat](https://web.libera.chat/) or
+  [connect with your own client](https://libera.chat/guides/connect).
+  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/libera/logs/%23linuxcnc-devel/index.html) by community member Tom L., and historical logs from freenode are [also available](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc-devel/index.html).
