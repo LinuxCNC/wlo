@@ -7,10 +7,16 @@ joomla_url: community
 date: 2006-02-27 14:42:54.000000000 -07:00
 ---
 
+<center><em>
+All interactions in the LinuxCNC community are governed by the <a href="/CODE_OF_CONDUCT/">Code of Conduct</a>
+</em></center>
+
 ## Users
 
-*Use these methods for help setting up and using LinuxCNC, and for general
-CNC topics.*
+<center><em>
+Use these methods for help setting up and using LinuxCNC, and for general
+CNC topics.
+</em></center>
 
 * The LinuxCNC [Forum](https://forum.linuxcnc.org/) is a user maintained
   place to discuss LinuxCNC.
@@ -38,8 +44,10 @@ CNC topics.*
 
 ## Developers
 
-*Use these methods to contribute to the development of LinuxCNC, including
-documentation, translation, new drivers and components.*
+<center><em>
+Use these methods to contribute to the development of LinuxCNC, including
+documentation, translation, new drivers and components.
+</em></center>
 
 * Learn more about [Contributing to
 LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).

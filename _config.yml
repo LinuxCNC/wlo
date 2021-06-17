@@ -2,17 +2,19 @@
 
 
 description: "LinuxCNC: an open source CNC machine controller. It can drive milling machines, lathes, 3d printers, laser cutters, plasma cutters, robot arms, hexapods, and more."
-legal: "\
-    <p>LINUX® is the registered trademark of Linus Torvalds in the U.S. and \
-    other countries.  The registered trademark Linux® is used pursuant \
-    to a sublicense from LMI, the exclusive licensee of Linus Torvalds, \
-    owner of the mark on a world-wide basis.</p> \
-\
-    <p>The LinuxCNC project is not affiliated with Debian.  Debian is a \
-    registered trademark owned by Software in the Public Interest, Inc.</p> \
-\
-    <p>The LinuxCNC project is not affiliated with UBUNTU.  UBUNTU is a \
-    registered trademark owned by Canonical Limited.</p>"
+legal: |
+    <p>All interactions in the LinuxCNC community are governed by the <a href=\"/CODE_OF_CONDUCT/\">Code of Conduct</a></p>
+
+    <p>LINUX® is the registered trademark of Linus Torvalds in the U.S. and
+    other countries.  The registered trademark Linux® is used pursuant
+    to a sublicense from LMI, the exclusive licensee of Linus Torvalds,
+    owner of the mark on a world-wide basis.</p>
+
+    <p>The LinuxCNC project is not affiliated with Debian.  Debian is a
+    registered trademark owned by Software in the Public Interest, Inc.</p>
+
+    <p>The LinuxCNC project is not affiliated with UBUNTU.  UBUNTU is a
+    registered trademark owned by Canonical Limited.</p>
 baseurl: ""
 url: "http://linuxcnc.org"
 exclude: [ scripts, README.md ]
