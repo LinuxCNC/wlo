@@ -27,7 +27,7 @@ all.
 Examples of behavior that contributes to creating a positive environment
 include:
 
-* Be kind and courteous to others
+* Being kind and courteous to others
 * Using welcoming and inclusive language
 * Being respectful of differing viewpoints and experiences
 * Collaborating with other community members
@@ -88,10 +88,9 @@ accordingly.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage],
-version 1.4, available at
-<https://www.contributor-covenant.org/version/1/4/code-of-conduct.html>,
-and the [Rust Code of Conduct](https://www.rust-lang.org/en-US/conduct.html).
+This Code of Conduct is adapted from the [Contributor Covenant version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html),
+the [Rust Code of Conduct](https://www.rust-lang.org/en-US/conduct.html),
+and the [Adafruit Community Code of Conduct](https://github.com/adafruit/Adafruit_Community_Code_of_Conduct/blob/main/code-of-conduct.md).
 
 For other projects adopting the LinuxCNC Community Code of
 Conduct, please contact the maintainers of those projects for enforcement.
