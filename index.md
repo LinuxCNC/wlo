@@ -1,5 +1,6 @@
 ---
 layout: page
+title: LinuxCNC
 ---
 
 {% if site.data.version %}<!-- site built from {{ site.data.version }} -->{% endif %}
