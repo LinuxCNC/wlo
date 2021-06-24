@@ -266,8 +266,11 @@ a:visited { color: #205caa; }
 
 .post code { padding: 1px 5px; }
 
+.post ul.posts,
+.post ol.posts { margin-left: 0; }
+
 .post ul,
-.post ol { margin-left: 0; }
+.post ol { margin-left: 45px; }
 
 .post pre code {
   border: 0;
