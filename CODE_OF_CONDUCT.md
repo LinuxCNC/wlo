@@ -41,8 +41,6 @@ Examples of unacceptable behavior by participants include:
 * The use of inappropriate images, including in a community member's avatar
 * The use of inappropriate language, including in a community member's nickname
 * Any spamming, flaming, baiting or other attention-stealing behavior
-* Excessive or unwelcome helping; answering outside the scope of the question
-  asked
 * Trolling, insulting/derogatory comments, and personal or political attacks
 * Promoting or spreading disinformation, lies, or conspiracy theories against
   a person, group, organisation, project, or community
