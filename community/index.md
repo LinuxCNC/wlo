@@ -31,7 +31,7 @@ CNC topics.
   [connect with your own client](https://libera.chat/guides/connect).
   The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/libera/logs/%23linuxcnc/index.html) by community member Tom L., and historical logs from freenode are [also available](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc/index.html).
   
-* A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org).
+* A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org). This room is bridged to the libera.chat *#linuxcnc* channel.
 
 * A community member has created a [Discord](https://discord.gg/X3zKzhc) server.
 
