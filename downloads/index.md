@@ -32,7 +32,7 @@ experimental RTAI kernel as described in
 
 * LinuxCNC 2.8.1 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.1-pi4.zip)
 
-Raspberry Pi 4 Uspace compatable with Mesa Ethernet and SPI interface boards.
+Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
 
 ## LinuxCNC 2.7 Downloads
 
@@ -42,7 +42,7 @@ generally a better choice for software stepping using a parallel port. However
 making a stable version of a 4.x Kernel for Stretch (and eventually Buster) has
 proven difficult, which is partly why we still distribute the EOL Wheezy. This
 is compatible with Mesa PCI and PCIe and Pico interface boards but is not
-compatable with Mesa Ethernet interface boards.
+compatible with Mesa Ethernet interface boards.
 
 * LinuxCNC 2.7.14 [Debian 7 Wheezy](http://www.linuxcnc.org/iso/linuxcnc-2.7.14-wheezy.iso)
 
