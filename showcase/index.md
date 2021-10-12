@@ -27,7 +27,7 @@ our users to do.
         limit or offset a list.  They haven't applied a fix for it due to backwards
         compatibility concerns.  https://github.com/Shopify/liquid/pull/456
     {% endcomment %}
-    {% assign showcase = site.showcase | sort 'date' | reverse %}
+    {% assign showcase = site.showcase | sort: 'date' | reverse %}
     {% for post in showcase %}
       <li>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>

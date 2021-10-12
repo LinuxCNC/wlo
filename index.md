@@ -52,7 +52,7 @@ printers, laser cutters, plasma cutters, robot arms, hexapods, and more.
         limit or offset a list. There is no fix upstream for it due to backwards
         compatibility concerns. https://github.com/Shopify/liquid/pull/456
     {% endcomment %}
-    {% assign showcase = site.showcase | sort 'date' | reverse %}
+    {% assign showcase = site.showcase | sort: 'date' | reverse %}
   {% for post in showcase reversed limit:1 %}
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
     <h2>
