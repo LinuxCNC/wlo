@@ -29,7 +29,9 @@ CNC topics.
 * Our primary real-time chat is in the *#linuxcnc* channel on [irc.libera.chat](https://libera.chat).
   You can use [web chat](https://web.libera.chat/#linuxcnc) or
   [connect with your own client](https://libera.chat/guides/connect).
-  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/libera/logs/%23linuxcnc/index.html) by community member Tom L., and historical logs from freenode are [also available](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc/index.html).
+  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc/index.html) by
+  community member Tom L. Logs can be accessed on the IRC with `log` for todays
+  log or `index` for the calendar index.
   
 * A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org). This room is bridged to the libera.chat *#linuxcnc* channel.
 
