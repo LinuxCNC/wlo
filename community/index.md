@@ -43,6 +43,8 @@ CNC topics.
 
 * [Issues](https://github.com/LinuxCNC/linuxcnc/issues) and [Pull Requests](https://github.com/LinuxCNC/linuxcnc/pulls) are handled by github.
 
+* Translations of software and documentation are a [community effort on weblate](https://hosted.weblate.org/languages/de/linuxcnc/).
+
 
 ## Developers
 
