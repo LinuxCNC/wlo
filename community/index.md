@@ -65,3 +65,19 @@ LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
   You can use [web chat](https://web.libera.chat/) or
   [connect with your own client](https://libera.chat/guides/connect).
   The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc-devel/index.html) by community member Tom L.
+  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/libera/logs/%23linuxcnc-devel/index.html) by community member Tom L., and historical logs from freenode are [also available](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc-devel/index.html).
+
+## Forks
+
+LinuxCNC has spawned derivative projects. You may be interested to learn about what is different to LinuxCNC with
+ * [OpenCN](https://gitlab.com/mecatronyx/opencnc/opencn)
+   - Different trajectory planner with focus on minimal variation of force imposed on spindle
+ * [MachineKit](https://www.machinekit.io/) - to mind come
+   - Trying to decouple the parts into isolated functional blocks: The focus is no longer the CNC controller, but the CNC is just one application.
+     There is - for example - the tormach/hal_ros_control for connecting to the ROS
+   - The Machinetalk remote communication protocol
+   - Different (some may say "more clear") repository structure
+ * ? Contact us for what we are missing.
+
+Forks are much appreciated as a means to tailor LinuxCNC to the needs of our users.
+And forks foster steady improvements as all forks compete for eyeballs, ideas and implementations.
