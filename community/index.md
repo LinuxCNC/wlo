@@ -64,4 +64,4 @@ LinuxCNC](/docs/html/code/contributing-to-linuxcnc.html).
 * Our primary real-time chat is in the *#linuxcnc-devel* channel on [irc.libera.chat](https://libera.chat).
   You can use [web chat](https://web.libera.chat/) or
   [connect with your own client](https://libera.chat/guides/connect).
-  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/libera/logs/%23linuxcnc-devel/index.html) by community member Tom L., and historical logs from freenode are [also available](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc-devel/index.html).
+  The chat is [logged](http://tom-itx.no-ip.biz:81/~tom-itx/irc/logs/%23linuxcnc-devel/index.html) by community member Tom L.
