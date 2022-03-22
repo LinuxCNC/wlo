@@ -7,7 +7,7 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## Current stable version
 
-| LinuxCNC 2.8 ([HTML](http://linuxcnc.org/docs/2.8/html/)) ([PDF](http://linuxcnc.org/docs/2.8/pdf))
+| LinuxCNC 2.8 ([HTML](http://linuxcnc.org/docs/html/)) ([PDF](http://linuxcnc.org/2.8/pdf))
 
 ## Future versions (not yet released!)
 
