@@ -8,5 +8,6 @@ Spotted on YouTube, LinuxCNC integrator Halász Attila has retrofitted a sizeabl
 The tool changer looks to have been very neatly integrated. 
 
 <div>
-<iframe width="405" height="228" src="https://www.youtube.com/watch?v=gWCsuGFWXWs" frameborder="0" allowfullscreen></iframe>
+<a href="https://www.youtube.com/embed/gWCsuGFWXWs">YouTube Link</a>
 </div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gWCsuGFWXWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
