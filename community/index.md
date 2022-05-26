@@ -35,7 +35,7 @@ CNC topics.
   
 * A community member has registered a Matrix room, [#LCNC:matrix.org (link joins via riot.im)](https://riot.im/app/#/room/#LCNC:matrix.org). This room is bridged to the libera.chat *#linuxcnc* channel.
 
-* A community member has created a [Discord](https://discord.gg/X3zKzhc) server.
+* A community member has created a [Discord](https://discord.gg/SbskPKPJc6) server.
 
 * The LinuxCNC [Wiki](http://wiki.linuxcnc.org/cgi-bin/emcinfo.pl)
   contains a wealth of user contributed information about LinuxCNC and
