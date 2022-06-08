@@ -9,7 +9,7 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## LinuxCNC 2.8 Downloads
 
-* LinuxCNC 2.8.2 [Debian 10 Buster PREEMPT-RT ISO](http://www.linuxcnc.org/iso/linuxcnc-2.8.2-buster.iso)
+* LinuxCNC 2.8.2 [Debian 10 Buster PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc-2.8.2-buster.iso)
 
 The Debian 10 Buster ISO uses a PREEMPT-RT patch which is close to mainstream
 Linux but does not, in some cases, give quite such good realtime performance as
@@ -20,7 +20,7 @@ This is compatible with all Mesa and Pico interface boards.
 * LinuxCNC 2.8.0 Debian 7 Wheezy RTAI
 
 Users requiring a known-stable RTAI installation can install the
-[Debian 7 Wheezy ISO](http://www.linuxcnc.org/iso/linuxcnc-2.7.14-wheezy.iso)
+[Debian 7 Wheezy ISO](https://www.linuxcnc.org/iso/linuxcnc-2.7.14-wheezy.iso)
 and then upgrade as described in 
 [2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/updating-linuxcnc.html).
 
