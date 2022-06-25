@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New Documenation Translation Infrastructure'
+title: 'New Documentation Translation Infrastructure'
 date: 2022-06-04 20:46:00.000 +01:00
 ---
 After many months of work by Petter, Jérémie, Steffen and Hans the
