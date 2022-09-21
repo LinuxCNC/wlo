@@ -12,8 +12,10 @@ remote control interface.
 
 <div>
 <a href="https://raspberry.piaustralia.com.au/pages/the-raspberry-pi-that-ships-other-raspberry-pis">Blog Post</a>
+<br>
+<br>
 <a href="https://linuxcnc.org/docs/html/man/man1/linuxcncrsh.1.html">linuxcncrsh interface.</a>
 </div>
-
-
+>br>
+<br>
 <iframe loading="lazy" title="Raspberry Pi Picking Robot" src="https://player.vimeo.com/video/749777452?h=3b81c96ac8&amp;dnt=1&amp;app_id=122963" width="400" height="225" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
