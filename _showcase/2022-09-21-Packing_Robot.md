@@ -11,10 +11,8 @@ controlled using a mixture of Ruby scripting and the linuxcncrsh
 remote control interface.
 
 <div>
-<a href=https://raspberry.piaustralia.com.au/pages/the-raspberry-pi-that-ships-other-raspberry-pis> blog post </a>
-</div>
-<div>
-<a href=https://linuxcnc.org/docs/html/man/man1/linuxcncrsh.1.html>linuxcncrsh interface.</a>
+<a href="https://raspberry.piaustralia.com.au/pages/the-raspberry-pi-that-ships-other-raspberry-pis">Blog Post</a>
+<a href="https://linuxcnc.org/docs/html/man/man1/linuxcncrsh.1.html">linuxcncrsh interface.</a>
 </div>
 
 
