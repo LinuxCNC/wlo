@@ -17,26 +17,28 @@ files see:
 ## LinuxCNC 2.8 Downloads
 
 LinuxCNC requires a realtime kernel if it is to be used to control machinery. 
-There are two versions of the package, linuxcnc-uspace and linuxcnc
+There are two versions of the package, "linuxcnc-uspace" and "linuxcnc"
 
-linuxcnc-uspace is compatible with the preempt-rt realtime kernel, which
+"linuxcnc-uspace" is compatible with the preempt-rt realtime kernel, which
 is close to standard Linux. This version runs in userspace like most
 other applications and will run with any preempt-rt kernel. 
 
-linuxcnc-uspace will also run on a standard Linux kernel for use as a
-simulator, buit should not be used to control hardware. 
+"linuxcnc-uspace" will also run on a standard Linux kernel for use as a
+simulator, but it should not be used to control hardware. 
 
-linuxcnc (without a suffix) is a package which runs in kernel space and needs a specific
-RTAI kernel. This has been the default mode for linuxcnc for decades, but
-has become increasingly difficult to maintain. This mode is currently
-less stable than the uspace option but can give much better latency on
-some machines. Note that it is only parallel-port controlled systems using
-software-based stepping and/or encoder counting that need particularly
-good latency performance. 
+"linuxcnc" (without a suffix) is a package which runs in kernel space 
+and needs a specific RTAI kernel )ie the exact kernel version installed 
+must match that which the package was built against. This has been the 
+default mode for linuxcnc for decades, but has become increasingly 
+difficult to maintain. This mode is currently less stable than the 
+uspace option but can give much better latency on some machines. Note 
+that it is only parallel-port controlled systems using software-based 
+stepping and/or encoder counting that need particularly good latency 
+performance. 
 
 It is also possible to run linuxcnc-uspace, in user-space, with the RTAI
 kernel if the helper package "linuxcnc-uspace-rtai" is installed. This is
-something of a half-way house between the other teo versions. A similar
+something of a half-way house between the other two versions. A similar
 package can be built for the Xenomai realtime kernel, but is not available
 as a pre-built package. 
 
@@ -64,7 +66,7 @@ The kernel-mode RTAI installation can not be used with Mesa Ethernet-interfaced 
 Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
 
 
-
+Regular development builds (several times a day) can be found here. 
 * [LinuxCNC Buildbot](http://buildbot.linuxcnc.org/)
 
 More information on downloading and installing is in the
@@ -75,12 +77,14 @@ More information on downloading and installing is in the
 
 LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
 from the command line or with GDebi as a graphical install method. You will need
-to have a Preempt RT kernel to run Uspace.
+to have a compatible realtime kernel to control machinery.
 
 * [LinuxCNC Uspace 2.8.4 64bit](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace_2.8.4_amd64.deb)
 * [LinuxCNC Uspace 2.8.4 32bit](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-i386/linuxcnc-uspace_2.8.4_i386.deb)
 * [LinuxCNC Uspace 2.8.4 armhf](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-armhf/linuxcnc-uspace_2.8.4_armhf.deb)
 * LinuxCNC Docs [English](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-en_2.8.4_all.deb) [Spanish](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-es_2.8.4_all.deb) [French](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-fr_2.8.4_all.deb) [Japanese (partial)](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-ja_2.8.4_all.deb) [Chinese](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-cn_2.8.4_all.deb)
 * [LinuxCNC Uspace 2.8.4 Dev](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace-dev_2.8.4_amd64.deb)
-* [LinuxCNC RTAI 2.8.4](https://www.linuxcnc.org/dists/buster/2.8-rt/binary-amd64/linuxcnc_2.8.4_amd64.deb)
+
+* [RTAI Kernel 4.19.195](https://www.linuxcnc.org/dists/buster/base/binary-amd64/linux-image-4.19.195-rtai-amd64_4.19.195-rtai-amd64-5_amd64.deb)
+* [LinuxCNC RTAI 2.8.4 for kernel 4.9.195](https://www.linuxcnc.org/dists/buster/2.8-rt/binary-amd64/linuxcnc_2.8.4_amd64.deb)
 * [LinuxCNC uspace helper for RTAI kernel](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace-rtai_2.8.4_amd64.deb)
