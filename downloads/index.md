@@ -27,12 +27,13 @@ other applications and will run with any preempt-rt kernel.
 simulator, but it should not be used to control hardware. 
 
 "linuxcnc" (without a suffix) is a package which runs in kernel space 
-and needs a specific RTAI kernel )ie the exact kernel version installed 
-must match that which the package was built against. This has been the 
-default mode for linuxcnc for decades, but has become increasingly 
-difficult to maintain. This mode is currently less stable than the 
-uspace option but can give much better latency on some machines. Note 
-that it is only parallel-port controlled systems using software-based 
+and needs a specific RTAI kernel, which we also supply. (ie the exact
+kernel version installed must match that which the package was built
+against.) This has been the default mode for linuxcnc for decades,
+but has become increasingly difficult to maintain. This mode is currently
+less stable than the uspace option (but only when unloading, it appears stable
+once realtime is running) but can give much better latency on some machines.
+Note that it is only parallel-port controlled systems using software-based 
 stepping and/or encoder counting that need particularly good latency 
 performance. 
 
