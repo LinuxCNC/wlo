@@ -11,9 +11,8 @@ date: 2006-02-27 14:42:54.000000000 -07:00
 
 ## Future versions (not yet released!)
 
-
-| LinuxCNC 2.9 prerelease (aka master or devel) ([HTML](http://linuxcnc.org/docs/devel/html/)) ([PDF](http://linuxcnc.org/docs/devel/pdf))
-
+| LinuxCNC 2.10 prerelease (aka master or devel) ([HTML](http://linuxcnc.org/docs/devel/html/)) ([PDF](http://linuxcnc.org/docs/devel/pdf))
+| LinuxCNC 2.9 prerelease ([HTML](http://linuxcnc.org/docs/2.9/html/)) ([PDF](http://linuxcnc.org/docs/2.9/pdf))
 
 ## Older versions
 
