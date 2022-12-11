@@ -81,28 +81,30 @@ And every piece of software has its very own community.
 
 Controlling the motors themselves, access steppers/servos (or their drivers) directly or via non-intelligent cards like EtherCat or parallel ports.
 
- * [GRBL](https://github.com/gnea/grbl) OpenSource, for use on Arduino
- * [LinuxCNC](https://www.linuxcnc.org) OpenSource, for Linux, low-latency with real-time kernel
- * [Mach3](https://www.machsupport.com/software/mach3/) non-free, low-cost, for Windows
- * [Mach4](https://www.machsupport.com/software/mach4/) non-free, low-cost, for Windows
- * [Marlin](https://marlinfw.org/) Open Source, for use on Arduino or the [BigTreeTech GRC](https://www.biqu.equipment/de/products/bigtreetech-gtr-v1-0-bigtreetech-m5-v1-0-11-axis-3d-printer-motherboard)
- * [KMotion](https://www.dynomotion.com/software.html)
- * [OpenBuilds CONTROL](https://software.openbuilds.com/#) OpenSource
- * [RoboticSys](https://roboticsys.com/rmp-ethercat-motion-controller/)
- * [TurboCNC](http://www.dakeng.com/turbo.html) OpenSource, for DOS
+| Name | OpenSource | Platform | Comment |
+|------|------------|----------|–––––––––|
+|[GRBL](https://github.com/gnea/grbl) | yes | Arduino | |
+|[LinuxCNC](https://www.linuxcnc.org) | yes | Linux   | low-latency with real-time kernel |
+|[Mach3](https://www.machsupport.com/software/mach3/) | no | Windows | low-cost |
+|[Mach4](https://www.machsupport.com/software/mach4/) | no | Windows | low-cost |
+|[Marlin](https://marlinfw.org/) | Open Source, Arduino or the [BigTreeTech GRC](https://www.biqu.equipment/de/products/bigtreetech-gtr-v1-0-bigtreetech-m5-v1-0-11-axis-3d-printer-motherboard) | |
+|[KMotion](https://www.dynomotion.com/software.html) | | |
+|[OpenBuilds CONTROL](https://software.openbuilds.com/#) | yes | | |
+|[RoboticSys](https://roboticsys.com/rmp-ethercat-motion-controller/) | | | |
+|[TurboCNC](http://www.dakeng.com/turbo.html) | yes | DOS | |
 
 In need of specialized hardware
 
- * [Acorn CNC](https://www.centroidcnc.com/centroid_diy/acorn_cnc_controller.html) non-free, low-cost, for Windows
- * [Duet](https://www.duet3d.com/) Open Source, connects via SPI to an RPi or also features its own web interface.
-   Board includes drivers for steppers, under control of a modern TMC5160 chip.
-   Provides its own G-code interface, with changes for adapting [from a 3D Printing background to CNC](https://duet3d.dozuki.com/Wiki/Configuring_RepRapFirmware_for_a_CNC_machine).
- * [Drufel](https://drufelcnc.com)
- * [Estlcam](https://estlcam.de/) hardware is Open Source, software not, for Windows
- * [EdingCNC](https://edingcnc.com)
- * [KineticNC](https://www.cnc-step.de/cnc-software/kinetic-nc-netzwerk-steuerungssoftware/) from CNC-STEP needs ZERO-3 interface
- * [nccad](http://www.max-computer.de/x5e/index.html) non-free, for Windows
- * [ShopBot](https://www.shopbottools.com/support/control-software) needs a Control-Box
+| Name | OpenSource | Platform | Comment |
+|------|------------|----------|–––––––––|
+| [Acorn CNC](https://www.centroidcnc.com/centroid_diy/acorn_cnc_controller.html) no | Windows| low-cost |
+| [Duet](https://www.duet3d.com/) | yes |  RPi | connects via SPI to an RPi or also features its own web interface.  Board includes drivers for steppers, under control of a modern TMC5160 chip.  Provides its own G-code interface, with changes for adapting [from a 3D Printing background to CNC](https://duet3d.dozuki.com/Wiki/Configuring_RepRapFirmware_for_a_CNC_machine). |
+| [Drufel](https://drufelcnc.com) | | | |
+| [Estlcam](https://estlcam.de/) | hardware:yes, software:no | Windows | |
+| [EdingCNC](https://edingcnc.com) | | | |
+| [KineticNC](https://www.cnc-step.de/cnc-software/kinetic-nc-netzwerk-steuerungssoftware/) | | | from CNC-STEP needs ZERO-3 interface |
+| [nccad](http://www.max-computer.de/x5e/index.html) | no | Windows | |
+| [ShopBot](https://www.shopbottools.com/support/control-software) | | | needs a Control-Box |
 
 High-end
  
@@ -116,49 +118,51 @@ High-end
  
 Contol an interface that interprets its output, likely G-code, with no direct contact to the machine performing the milling
 
- * [Alibre](https://www.alibre.com/)
- * [Aspire](https://www.cnc-step.de/cnc-software/aspire/)
- * [BlenderCAM](https://github.com/vilemduha/blendercam/wiki) OpenSource
- * [BobCAD-CAM](https://bobcad.com/) non-free CAM modules for SolidWorks
- * [CamBam](http://www.cambam.co.uk/) non-free
- * [DeskCNC](http://www.deskcnc.com/Features.html) non-free
- * [Dolphin](https://www.dolphincadcam.com/) non-free
- * [EdgeCAM](https://www.edgecam.com/)
- * [Estlcam](https://estlcam.de/)
- * [Fusion360](https://www.autodesk.com) non-free
- * [FreeMill](https://mecsoft.com/freemill/) free
- * [GibbsCAM](https://www.gibbscam.com/)
- * [MasterCAM](https://www.mastercam.com/)
- * [MeshCAM](http://www.grzsoftware.com/)
- * [nccad](http://www.max-computer.de/x5e/index.html)
- * [OpenBuilds CAM](https://software.openbuilds.com/#)
- * [OpenCAMLib](https://github.com/aewallin/opencamlib) OpenSource Python library to generate toolpaths, compatible with BlenderCAM
- * [OneCNC](https://onecnc.net/) non-free
- * [SprutCAM](https://sprutcam.com/) non-free
- * [VisualCADCAM](https://mecsoft.com/visualcadcam/) non-free
- * [WinPC-NC](https://www.lewetz.de/de/sample-sites-2/winpc-nc/uebersicht)
+| Name | OpenSource | Platform | Comment |
+|------|------------|----------|–––––––––|
+| [Alibre](https://www.alibre.com/) | | | |
+| [Aspire](https://www.cnc-step.de/cnc-software/aspire/) | | | |
+| [BlenderCAM](https://github.com/vilemduha/blendercam/wiki) | yes | | |
+| [BobCAD-CAM](https://bobcad.com/) | non-free | Windows | CAM modules for SolidWorks |
+| [CamBam](http://www.cambam.co.uk/) | no | | |
+| [DeskCNC](http://www.deskcnc.com/Features.html) | no | | |
+| [Dolphin](https://www.dolphincadcam.com/) | no | | |
+| [EdgeCAM](https://www.edgecam.com/) | | | |
+| [Estlcam](https://estlcam.de/) | | | |
+| [Fusion360](https://www.autodesk.com) | no | Windows+Mac | |
+| [FreeMill](https://mecsoft.com/freemill/) | no, but free | Windows | module that is included in each of these products: VisualCAD/CAM and RhinoCAM |
+| [GibbsCAM](https://www.gibbscam.com/) | | | |
+| [MasterCAM](https://www.mastercam.com/) | | | |
+| [MeshCAM](http://www.grzsoftware.com/) | | | |
+| [nccad](http://www.max-computer.de/x5e/index.html) | | | |
+| [OpenBuilds CAM](https://software.openbuilds.com/#) | | | |
+| [OpenCAMLib](https://github.com/aewallin/opencamlib) | yes | all | Python library to generate toolpaths, compatible with BlenderCAM |
+| [OneCNC](https://onecnc.net/) | no | | |
+| [SprutCAM](https://sprutcam.com/) | no | | |
+| [VisualCADCAM](https://mecsoft.com/visualcadcam/) | no | | |
+| [WinPC-NC](https://www.lewetz.de/de/sample-sites-2/winpc-nc/uebersicht) | | | |
 
 ### CAD
 
 Software that crafts something from which then CAM can generate G-code
 
- * [AutoCAD](https://www.autodesk.com/products/autocad/overview) non-free
- * [Blender](https://www.blender.org/) OpenSource, known for the nice movies
- * [BobCAD-CAM](https://bobcad.com/products/cad-design-software) non-free CAM modules for SolidWorks
- * [CorelCAD](https://www.coreldraw.com/en/product/corel-cad/) for Windows and Mac
- * [DesKAM](http://www.deskam.com/) non-free Windows for engraving
- * [Dolphin](https://www.dolphincadcam.com/) non-free
- * [FreeCAD](https://www.freecad.org) OpenSource
- * [Fusion360](https://www.autodesk.com) non-free
- * [Moi](http://moi3d.com/) non-free
- * [nccad](http://www.max-computer.de/x5e/index.html)
- * [OneCNC](https://onecnc.net/) non-free
- * [Rhino](https://www.rhino3d.com/) non-free for Windows and Mac
- * [SketchUp](http://sketchup.google.com/) non-free
- * [SolidEdge](https://solidedge.siemens.com/) non-free
- * [SolidWorks](https://www.solidworks.com/) non-free, low-cost entry price, physics simulations
- * [TinkerCAD](https://www.tinkercad.com/) free as in beer, web-only
- * [TrueSpace](https://download.cnet.com/TrueSpace/3000-6677_4-10187286.html) free as in beer
- * [TurboCAD](https://www.turbocad.com/) non-free
- * [VisualCADCAM](https://mecsoft.com/visualcadcam/) non-free
- * [Wings 3D](http://www.wings3d.com/) Open Source
+ | [AutoCAD](https://www.autodesk.com/products/autocad/overview) | no | | |
+ | [Blender](https://www.blender.org/) | yes | all | |
+ | [BobCAD-CAM](https://bobcad.com/products/cad-design-software) | no | | CAM modules for SolidWorks |
+ | [CorelCAD](https://www.coreldraw.com/en/product/corel-cad/) | no | Windows+Mac | |
+ | [DesKAM](http://www.deskam.com/) | non-free | Windows | for engraving |
+ | [Dolphin](https://www.dolphincadcam.com/) | no | | |
+ | [FreeCAD](https://www.freecad.org) | yes | | |
+ | [Fusion360](https://www.autodesk.com) | no | | |
+ | [Moi](http://moi3d.com/) | no | | |
+ | [nccad](http://www.max-computer.de/x5e/index.html)
+ | [OneCNC](https://onecnc.net/) | no | | |
+ | [Rhino](https://www.rhino3d.com/) | non-free | Windows and Mac | |
+ | [SketchUp](http://sketchup.google.com/) | no | | |
+ | [SolidEdge](https://solidedge.siemens.com/) | no | | |
+ | [SolidWorks](https://www.solidworks.com/) non-free | Windows| low-cost entry price, physics simulations |
+ | [TinkerCAD](https://www.tinkercad.com/) | no, but free | | web only |
+ | [TrueSpace](https://download.cnet.com/TrueSpace/3000-6677_4-10187286.html) | no, but free | | |
+ | [TurboCAD](https://www.turbocad.com/) | no | | |
+ | [VisualCADCAM](https://mecsoft.com/visualcadcam/) | no | | |
+ | [Wings 3D](http://www.wings3d.com/) | yes | | |
