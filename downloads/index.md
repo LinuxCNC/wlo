@@ -43,6 +43,8 @@ something of a half-way house between the other two versions. A similar
 package can be built for the Xenomai realtime kernel, but is not available
 as a pre-built package. 
 
+The links below point to the latest released images. Older releases can still be
+found [here](https://www.linuxcnc.org/iso/)
 
 * LinuxCNC 2.8.4 [Debian 10 Buster PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc-2.8.4-buster.iso)
 
