@@ -66,7 +66,7 @@ There is not currently a packaged LinuxCNC application image for RTAI (work in p
 building from source is supported and working. 
 
 
-* LinuxCNC 2.9.1 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.9.1-bookworm-rpi4.img.xz)
+* LinuxCNC 2.9.1 [Raspberry Pi OS based on Debian 12 Bookworm](https://www.linuxcnc.org/iso/linuxcnc-2.9.1-bookworm-rpi4.img.xz)
 
 Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
 This .xz file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
