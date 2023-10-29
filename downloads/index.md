@@ -88,7 +88,7 @@ to have a compatible realtime kernel to control machinery.
 * [LinuxCNC Uspace 2.9.1 64bit](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.1_amd64.deb)
 * [LinuxCNC Uspace 2.9.1 arm64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.1_arm64.deb)
 * LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-en_2.9.1_all.deb) [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-es_2.9.1_all.deb) [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-fr_2.9.1_all.deb) [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-de_2.9.1_all.deb) [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-zh-cn_2.9.1_all.deb)
-* [LinuxCNC Uspace 2.8.4 Dev](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace-dev_2.8.4_amd64.deb)
+* [LinuxCNC Uspace 2.9.1 Dev AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.1_amd64.deb) [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.1_arm64.deb)
 
 * [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/linux-image-5.4.258-rtai-amd64_5.4.258-rtai-amd64-2_amd64.deb)
 * [RTAI modules](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/rtai-modules-5.4.258_5.3.3-linuxcnc-delta_amd64.deb)
