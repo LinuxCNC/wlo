@@ -14,7 +14,7 @@ For alternative installation methods, or instructions on installing these
 files see: 
 [Getting LinuxCNC](http://linuxcnc.org/docs/stable/html/getting-started/getting-linuxcnc.html)
 
-## LinuxCNC 2.8 Downloads
+## LinuxCNC 2.9 Downloads
 
 LinuxCNC requires a realtime kernel if it is to be used to control machinery. 
 There are two versions of the package, "linuxcnc-uspace" and "linuxcnc"
@@ -29,13 +29,13 @@ simulator, but it should not be used to control hardware.
 "linuxcnc" (without a suffix) is a package which runs in kernel space 
 and needs a specific RTAI kernel, which we also supply. (ie the exact
 kernel version installed must match that which the package was built
-against.) This has been the default mode for linuxcnc for decades,
-but has become increasingly difficult to maintain. This mode is currently
-less stable than the uspace option (but only when unloading, it appears stable
-once realtime is running) but can give much better latency on some machines.
-Note that it is only parallel-port controlled systems using software-based 
-stepping and/or encoder counting that need particularly good latency 
-performance. 
+against.) At the present moment we do not have a linuxcnc package
+available for the RTAI kernel, but it is possible to build from source. 
+The RTAI kernel is available from the LinuxCNC software repository, however.
+In many cases the RTAI kernel will give better latency performance than
+preempt-rt, but note that it is only parallel-port controlled systems
+using software-based  stepping and/or encoder counting that need particularly
+good latency performance 
 
 It is also possible to run linuxcnc-uspace, in user-space, with the RTAI
 kernel if the helper package "linuxcnc-uspace-rtai" is installed. This is
@@ -46,9 +46,9 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-* LinuxCNC 2.8.4 [Debian 10 Buster PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc-2.8.4-buster.iso)
+* LinuxCNC 2.9.1 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.1-amd64.hybrid.iso)
 
-The Debian 10 Buster ISO will install a full Debian system with the required
+The Debian 12 Bookworm ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
 patched kernel  which is close to mainstream Linux but does not, in some
 cases, give quite such good realtime performance as the previous RTAI
@@ -58,15 +58,18 @@ This is compatible with all Mesa and Pico interface boards.
 
 * LinuxCNC 2.8.4 Debian 10 Buster RTAI
 
-The more adventurous can install the Buster ISO and then install the
+The more adventurous can install the Bookworm ISO and then install the
 experimental RTAI kernel as described in 
-[2.8 documents](http://linuxcnc.org/docs/2.8/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
-The kernel-mode RTAI installation can not be used with Mesa Ethernet-interfaced cards. 
+[2.9 documents](http://linuxcnc.org/docs/2.9/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
+The kernel-mode RTAI installation can not be used with Mesa Ethernet-interfaced cards.
+There is not currently a packaged LinuxCNC application image for RTAI (work in progress) but
+building from source is supported and working. 
 
 
-* LinuxCNC 2.8.1 [Raspberry Pi OS based on Debian 10 Buster](https://www.linuxcnc.org/iso/linuxcnc-2.8.1-pi4.zip)
+* LinuxCNC 2.9.1 [Raspberry Pi OS based on Debian 10 Buster]([)](https://www.linuxcnc.org/iso/linuxcnc-2.9.1-bookworm-rpi4.img.xz)
 
 Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
+This .xz file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
 
 
 Regular development builds (several times a day) can be found here. 
@@ -82,12 +85,14 @@ LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
 from the command line or with GDebi as a graphical install method. You will need
 to have a compatible realtime kernel to control machinery.
 
-* [LinuxCNC Uspace 2.8.4 64bit](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace_2.8.4_amd64.deb)
-* [LinuxCNC Uspace 2.8.4 32bit](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-i386/linuxcnc-uspace_2.8.4_i386.deb)
-* [LinuxCNC Uspace 2.8.4 armhf](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-armhf/linuxcnc-uspace_2.8.4_armhf.deb)
-* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-en_2.8.4_all.deb) [Spanish](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-es_2.8.4_all.deb) [French](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-fr_2.8.4_all.deb) [Japanese (partial)](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-ja_2.8.4_all.deb) [Chinese](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-doc-cn_2.8.4_all.deb)
+* [LinuxCNC Uspace 2.9.1 64bit](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.1_amd64.deb)
+* [LinuxCNC Uspace 2.9.1 arm64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.1_arm64.deb)
+* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-en_2.9.1_all.deb) [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-es_2.9.1_all.deb) [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-fr_2.9.1_all.deb) [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-de_2.9.1_all.deb) [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-doc-zh-cn_2.9.1_all.deb)
 * [LinuxCNC Uspace 2.8.4 Dev](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace-dev_2.8.4_amd64.deb)
 
-* [RTAI Kernel 4.19.195](https://www.linuxcnc.org/dists/buster/base/binary-amd64/linux-image-4.19.195-rtai-amd64_4.19.195-rtai-amd64-5_amd64.deb)
+* [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/linux-image-5.4.258-rtai-amd64_5.4.258-rtai-amd64-2_amd64.deb)
+* [RTAI modules](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/rtai-modules-5.4.258_5.3.3-linuxcnc-delta_amd64.deb)
+
+The following are work-in-progress and should follow in a few weeks (after 29 Oct 2023)
 * [LinuxCNC RTAI 2.8.4 for kernel 4.9.195](https://www.linuxcnc.org/dists/buster/2.8-rt/binary-amd64/linuxcnc_2.8.4_amd64.deb)
 * [LinuxCNC uspace helper for RTAI kernel](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace-rtai_2.8.4_amd64.deb)
