@@ -1,0 +1,205 @@
+---
+layout: post
+title: 'LinuxCNC 2.9.1 released'
+date: 2023-11-05 00:28:00.000 +00:00
+---
+
+### LinuxCNC 2.9.1 has been released (there was no 2.9.0 release)
+
+This marks a major new release of LinuxCNC.
+Due to the difficulty of supporting both Python3 and Python2 and various out-of-date
+libraries the 2.9 release of LinuxCNC is only supported in Debian Buster or later,
+Ubuntu Focal and later and Rasbian 12 and later. 
+Furthermore we are no longer building any 32-bit versions of any packages. 
+
+This update is recommended to all users of supported systems and hardware. 
+There may be a final 2.8 release to incorporate new drivers and features for
+those unable to upgrade. 
+
+
+Abbreviated Changelog:
+(Full changelog at https://github.com/LinuxCNC/linuxcnc/blob/v2.9.1/debian/changelog)
+
+  * Merge 150+ pull requests
+  * Adding Limit_Axis Component
+  * Added user space HAL component for publishing HAL values to a MQTT broker.
+  * carousel.comp: Add direct position control for stepgen and encoder modes
+  * Add Mesa 7I94T, 7I97T, 7I76EU, 7i96S card support
+  * Add scaled sum component.
+  * Add anglejog component.
+  * mesa_modbus: New Driver framework
+  * hal_gpio: Generic GPIO driver for any platform supporting libgpiod
+  * docs: Add manpage for emccalib
+  * halcompile: Accept hal pins of type "port"
+  * G71 - G72 updates
+  * Add OutM simple output module support
+  * docs - Hundreds of updates
+  * Fix "userspace" vs "realtime" nomenclature
+  * gladevcp: - Many Updates
+  * glcannon - Many Updates
+  * gmoccapy - Many, Many Updates
+  * hal_glib - Several Updates
+  * halcompile: Add command line arguments to provide compile and link flags
+  * halscope: Several updats
+  * homing: Fix for #2169 introduced #2308.
+  * homing.c: Apply suggested fix for #2629 and #2388 Fix suggested by  yuyue2013
+  * hostmot2 bspi: sanity-check that channel echo enable matches receive buffer present
+  * interpmodule: add interpreter.active_spindle property
+  * interpmodule: fix `speed` property
+  * Issue #1232: Fixed
+  * Issue #1747: Fixed
+  * Issue #2169: Fixed
+  * Issue #2483. Partially ficed
+  * limit_axis:  - New component
+  * mb2hal Several Updates
+  * qt5_graphics - Several Updates
+  * qtaxis - Several Updates
+  * qtdagon - 100+ Updates
+  * qtplasmac  - 100+ Updates
+  * qttouchy -fix sample config loading error, remove MPG selection buttons
+  * qtvcp - 200+ updates
+  * qtvcp --mdi_line: fix multi axes movement Addresses Closes: #1053251
+  * RS274: M5 default to all spindles.
+  * sims: fix startup issues in axis sims
+  * sims: fix startup issues in qtvcp sims
+  * sims: update and tidy qtplasmac sim
+
+This release contains contributions from the following authors: 
+
+ALatSMT
+Alec Ari
+Alexey Starikovskiy
+Alex Lait
+alkabal
+Allan Nordhøy
+Ambr Enzs
+Andreas Christoffersen
+André Litfin
+Andrew Downing
+andrewheeler82
+Andrew Kyrychenko
+Andrii Podanenko
+andy pugh
+Arvid Brodin
+Asle Næss
+Benson Muite
+Billy Soto
+Bob Bond
+Bruno Lualdi
+Bryce Johnson
+ButterflyOfFire
+cascade256
+Chad A. Woitas
+Chadly
+chris
+Chris Morley
+Chris Nisbet
+Chris Radek
+cnc
+Colten Edwards
+Csa söl
+Curtis Dutton
+d2inventory
+Damian Wrobel
+damiodj
+Daniel Rogge
+david
+Davide Cerati
+ddlu
+ddotldot
+DerAndere
+Dewey Garrett
+D.L
+Dmitry S. aka D.L
+D. Mueller
+Egor Komogortsev
+ekam230
+Ernesto Lo Valvo
+freddii
+Greg Carl
+Gunnar Wolf
+Hakan Kaner
+Hannah Lau
+Hans Unzner
+Håvard F. Aasen
+Håvard Flaget Aasen
+Horváth Csaba
+htasta
+Ihor Oliinyk
+issyvarsano
+Jan Mrázek
+JanneK
+Jan Roters
+jb0
+Jeff Epler
+Jérémie Tarot
+Jerry Trantow
+J.M.Garcia
+John Morris
+John Thornton
+Jose Manuel Garcia de Torres
+joseph calderon
+Juraj Adamkovic
+Kale Yuzik
+Klaus Naumann
+Leonardo Daniel Marsaglia
+luz paz
+Mark
+Markus
+Mark van Doesburg
+Martin Kaplan
+Mateusz Konieczny
+Matthew Johnston
+Matthias
+Michael Langer
+Michael Stellmacher
+mk00002
+Moses McKnight
+mwork
+NhanPham
+nicokid
+Nicola Quargentan
+nicolas
+Nikita Shubin
+noel
+Norbert Schechner
+oMtQB4
+pc179
+Peter C Wallace
+Peter Müller
+Petr Menšík
+Petteri Aimonen
+Petter Reinholdtsen
+Phillip A Carter
+Rainer Stelzer
+Rene Hopf
+Rob Clegg
+Robert W. Ellenberg
+Robin Szemeti
+Roguish
+root
+rpm-build
+russellgower
+samcoinc
+Sascha Ittner
+Sebastian Kuzminsky
+simaoamorim
+snowgoer540
+spike
+Steffen Möller
+sundtek
+Sync
+Tim Blume
+Tinic Uro
+Toni Laiho
+Trần Ngọc Quân
+TRothfelder
+Ulices
+whatawhiz
+yohsuke
+zz912
+Александр Макарчук
+Дмитрий
+トトも
+大宝剑
+陈浩
