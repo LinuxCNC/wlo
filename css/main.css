@@ -86,7 +86,7 @@ a:visited { color: #205caa; }
   color: #2a7ae2;
   letter-spacing: -.5px;
 }
-.site-nav .page-link { color: #0000ff; text-decoration: underline; }
+.site-nav .page-link:hover { color: #0000ff; text-decoration: underline; }
 
 /* Site footer */
 
