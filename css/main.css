@@ -32,8 +32,8 @@ h4 { font-size: 120%; }
 h5 { font-size: 110%; }
 h6 { font-size: 100%; }
 
-a { color: #2a7ae2; text-decoration: underline; }
-a:hover { color: #0000ff; text-decoration: underline; }
+a { color: #1F51FF; text-decoration: underline; }
+a:hover { color: #0818A8; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 /* Utility */
@@ -83,10 +83,10 @@ a:visited { color: #205caa; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #2a7ae2;
+  color: #1F51FF;
   letter-spacing: -.5px;
 }
-.site-nav .page-link:hover { color: #0000ff; text-decoration: underline; }
+.site-nav .page-link:hover { color: #0818A8; text-decoration: underline; }
 
 /* Site footer */
 
