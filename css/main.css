@@ -32,8 +32,14 @@ h4 { font-size: 120%; }
 h5 { font-size: 110%; }
 h6 { font-size: 100%; }
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
+a {
+  color: #2a7ae2;
+  text-decoration:
+  none; padding-bottom:
+  3px; border-bottom:
+  1px solid blue
+  }
+a:hover   { color: #0000ff; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 /* Utility */
@@ -133,7 +139,7 @@ a:visited { color: #205caa; }
 .site-footer p {
   font-size: 15px;
   letter-spacing: -.3px;
-  color: #828282;
+  color: #000000;
 }
 
 .site-footer .legal { clear: both; }
@@ -141,7 +147,7 @@ a:visited { color: #205caa; }
 .site-footer .legal p {
   font-size: 9px;
   letter-spacing: -.3px;
-  color: #828282;
+  color: #000000;
 }
 
 .github-icon-svg,
@@ -181,7 +187,7 @@ a:visited { color: #205caa; }
 .posts .post-date {
   display: block;
   font-size: 15px;
-  color: #818181;
+  color: #000000;
 }
 
 
@@ -199,7 +205,7 @@ a:visited { color: #205caa; }
 
 .post-header .meta {
   font-size: 15px;
-  color: #818181;
+  color: #000000;
   margin-top: 5px;
 }
 
