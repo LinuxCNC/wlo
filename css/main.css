@@ -32,14 +32,8 @@ h4 { font-size: 120%; }
 h5 { font-size: 110%; }
 h6 { font-size: 100%; }
 
-a {
-  color: #2a7ae2;
-  text-decoration:
-  none; padding-bottom:
-  3px; border-bottom:
-  1px solid blue
-  }
-a:hover   { color: #0000ff; text-decoration: underline; }
+a { color: #2a7ae2; text-decoration: underline; }
+a:hover { color: #0000ff; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 /* Utility */
@@ -89,7 +83,7 @@ a:visited { color: #205caa; }
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
+  color: #2a7ae2;
   letter-spacing: -.5px;
 }
 
