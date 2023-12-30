@@ -73,6 +73,14 @@ Raspberry Pi 5 Uspace compatible with Mesa Ethernet and SPI interface boards.
 
 These .xz files are directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
 
+For both of these images:  
+User name: cnc  
+Password: cnc  
+Please run the following from the commandline to configure wifi, timezones and other data:  
+```
+sudo menu-config
+```
+
 Regular development builds (several times a day) can be found here. 
 * [LinuxCNC Buildbot](http://buildbot.linuxcnc.org/)
 
