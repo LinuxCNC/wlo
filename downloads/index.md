@@ -30,7 +30,7 @@ simulator, but it should not be used to control hardware.
 and needs a specific RTAI kernel, which we also supply. (ie the exact
 kernel version installed must match that which the package was built
 against.) The RTAI kernel is available from the LinuxCNC software repository
-and should install the required kernel as a dependency.
+and should be installed automatially as a dependency of the "linuxcnc" package.
 In many cases the RTAI kernel will give better latency performance than
 preempt-rt, but note that it is only parallel-port controlled systems
 using software-based  stepping and/or encoder counting that need particularly
