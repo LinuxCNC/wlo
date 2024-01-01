@@ -29,9 +29,8 @@ simulator, but it should not be used to control hardware.
 "linuxcnc" (without a suffix) is a package which runs in kernel space 
 and needs a specific RTAI kernel, which we also supply. (ie the exact
 kernel version installed must match that which the package was built
-against.) At the present moment we do not have a linuxcnc package
-available for the RTAI kernel, but it is possible to build from source. 
-The RTAI kernel is available from the LinuxCNC software repository, however.
+against.) The RTAI kernel is available from the LinuxCNC software repository
+and should install the required kernel as a dependency.
 In many cases the RTAI kernel will give better latency performance than
 preempt-rt, but note that it is only parallel-port controlled systems
 using software-based  stepping and/or encoder counting that need particularly
@@ -94,14 +93,12 @@ LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
 from the command line or with GDebi as a graphical install method. You will need
 to have a compatible realtime kernel to control machinery.
 
-* [LinuxCNC Uspace 2.9.1 64bit](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.2_amd64.deb)
-* [LinuxCNC Uspace 2.9.1 arm64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.2_arm64.deb)
+* [LinuxCNC Uspace 2.9.2 64bit](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.2_amd64.deb)
+* [LinuxCNC Uspace 2.9.2 arm64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.2_arm64.deb)
 * LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.2_all.deb) [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.2_all.deb) [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.2_all.deb) [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.2_all.deb) [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.2_all.deb)
 * [LinuxCNC Uspace 2.9.2 Dev AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.2_amd64.deb) [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.2_arm64.deb)
 
+* [LinuxCNC package for RTAI kernel 5.4.256](https://www.linuxcnc.org/dists/bookworm/2.9-rt/binary-amd64/linuxcnc_2.9.2_amd64.deb)
 * [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/linux-image-5.4.258-rtai-amd64_5.4.258-rtai-amd64-2_amd64.deb)
 * [RTAI modules](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/rtai-modules-5.4.258_5.3.3-linuxcnc-delta_amd64.deb)
 
-The following are work-in-progress and should follow in a few weeks (after 29 Oct 2023)
-* [LinuxCNC RTAI 2.8.4 for kernel 4.9.195](https://www.linuxcnc.org/dists/buster/2.8-rt/binary-amd64/linuxcnc_2.8.4_amd64.deb)
-* [LinuxCNC uspace helper for RTAI kernel](https://www.linuxcnc.org/dists/buster/2.8-rtpreempt/binary-amd64/linuxcnc-uspace-rtai_2.8.4_amd64.deb)
