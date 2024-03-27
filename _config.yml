@@ -17,7 +17,6 @@ baseurl: ""
 url: "http://linuxcnc.org"
 exclude: [ scripts, README.md ]
 include: [ .htaccess ]
-#twitter_username: jekyllrb
 
 # Build settings
 markdown: kramdown
