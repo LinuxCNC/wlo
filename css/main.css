@@ -75,14 +75,14 @@ a:visited { color: #205caa; }
 }
 
 .site-nav {
-  float: right;
+  text-align: center;
   line-height: 56px;
 }
 
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
-  margin-left: 20px;
+  margin: 0 10px;
   letter-spacing: -.5px;
 }
 
