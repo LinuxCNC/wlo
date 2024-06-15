@@ -68,7 +68,7 @@ be downloaded by adding the linuxcnc 2.9-rt package repository as described in t
 * LinuxCNC 2.9.2 [Raspberry Pi 4 OS based on Debian Bookworm](https://www.linuxcnc.org/iso/rpi-4-debian-bookworm-6.1.54-rt15-arm64-ext4-2023-11-17-1731.img.xz)
 Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
 * LinuxCNC 2.9.2 [Raspberry Pi 5 OS based on Debian Bookworm](https://www.linuxcnc.org/iso/rpi-5-debian-bookworm-6.1.61-rt15-arm64-ext4-2023-11-17-1520.img.xz)
-Raspberry Pi 5 Uspace compatible with Mesa Ethernet and SPI interface boards.
+Raspberry Pi 5 Uspace compatible with Mesa Ethernet boards. Note that SPI is not currently supported with the Pi5.
 
 These .xz files are directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
 
