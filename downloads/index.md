@@ -45,7 +45,7 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-* LinuxCNC 2.9.2 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/LinuxCNC_2.9.2-amd64.hybrid.iso)
+* LinuxCNC 2.9.2 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.2-amd64.hybrid.iso)
 
 The Debian 12 Bookworm ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
