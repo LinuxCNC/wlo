@@ -45,7 +45,7 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-* LinuxCNC 2.9.3 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.3-amd64.hybrid.iso)
+* LinuxCNC 2.9.4 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.4-amd64.hybrid.iso)
 
 The Debian 12 Bookworm ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
@@ -55,7 +55,7 @@ kernel. It is very often more than good enough. It should probably be
 the first version tried even if using a parallel port.
 This is compatible with all Mesa and Pico interface boards.
 
-* LinuxCNC 2.9.3 Debian 12 Bookworm RTAI
+* LinuxCNC 2.9.4 Debian 12 Bookworm RTAI
 
 The more adventurous can install the Bookworm ISO and then install the
 experimental RTAI kernel as described in 
