@@ -36,7 +36,7 @@ Suggestions on how to improve the community experience
 
 How to improve our developers' experience
 1. Documentation
-   - Folks do not like to have a large repository with to many languages, especially so since only fragments tend to be translated
+   - Folks do not like to have a large repository with too many languages, especially so as only fragments tend to be translated
    - Unclear when and how the documentation on web page is updated
 
 2. BuildBot2 to substitute BuildBot - The main buildbot can probably be retired, it is now only building for out-of-support OS variants. 
