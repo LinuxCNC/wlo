@@ -17,7 +17,7 @@ The documentation literally did not let us sleep too much. Weblate has a new cha
 
 Discussion points at the meeting
 
-How to improve the community experience
+Suggestions on how to improve the community experience
 1. Revive our Video conferences (René, Steffen, Petter) - Steffen starts an invite, followed by René, Andy, Petter and Dominic
     Migrating to BigBlueButton on https://www.senfcall.de/.
     - Close gaps in communication between LinuxCNC forums and developers
