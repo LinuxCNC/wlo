@@ -4,7 +4,7 @@ title: 'Report: LinuxCNC Meetup near Oslo'
 date: 2025-07-12 23:33:00.000000000 +01:00
 ---
 
-We just completed a LinuxCNC-intense weekend, kindly hosted by Petter in his shop near the Oslo airport and also kindly sponsored by [NUUG](https://www.nuug.no) and [Redpill-Linpro](https://www.redpill-linpro.com/en). 
+We just completed a LinuxCNC-intense weekend, kindly hosted by Petter in his shop near the Oslo airport and also kindly sponsored by [NUUG Foundation](https://www.nuugfoundation.no/en/) and [Redpill-Linpro](https://www.redpill-linpro.com/en).
 Petter's shop is quite a mechanic's resort.
 
 (If you are upset to have missed it, then it is very likely that the event will be repeated next year at around the same time)
