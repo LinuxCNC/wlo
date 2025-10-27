@@ -44,6 +44,8 @@ as a pre-built package.
 
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
+Note that at the moment these installers will install 2.9.4 whereas the latest release is 2.9.7. 
+Update should be automatic through the package manager, and updated images are in progress. 
 
 * LinuxCNC 2.9.4 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.4-amd64.hybrid.iso)
 
@@ -93,10 +95,10 @@ LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
 from the command line or with GDebi as a graphical install method. You will need
 to have a compatible realtime kernel to control machinery.
 
-* [LinuxCNC Uspace 2.9.5 64bit](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.5_amd64.deb)
-* [LinuxCNC Uspace 2.9.5 arm64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.5_arm64.deb)
-* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.5_all.deb) [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.5_all.deb) [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.5_all.deb) [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.5_all.deb) [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.5_all.deb)
-* [LinuxCNC Uspace 2.9.5 Dev AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.5_amd64.deb) [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.5_arm64.deb)
+* [LinuxCNC Uspace 2.9.7 64bit](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.7_amd64.deb
+* [LinuxCNC Uspace 2.9.7 arm64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.7_arm64_bookworm.deb)
+* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.7_all.deb) [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.7_all.deb) [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.7_all.deb) [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.7_all.deb) [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.7_all.deb)
+* [LinuxCNC Uspace 2.9.7 Dev AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.7_amd64.deb) [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.7_arm64_bookworm.deb)
 
 * [LinuxCNC package for RTAI kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/2.9-rt/binary-amd64/linuxcnc_2.9.3_amd64.deb)
 * [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/linux-image-5.4.258-rtai-amd64_5.4.258-rtai-amd64-2_amd64.deb)
