@@ -67,20 +67,11 @@ In addition to the RTAI kernel you will also need the rtai-modules package and t
 be downloaded by adding the linuxcnc 2.9-rt package repository as described in the link above. 
 
 
-* LinuxCNC 2.9.4 [Raspberry Pi 4 OS based on Debian Bookworm](https://www.linuxcnc.org/iso/rpi-4-debian-bookworm-6.12.11-arm64-ext4-2025-01-27-0404.img.xz)
-Raspberry Pi 4 Uspace compatible with Mesa Ethernet and SPI interface boards.
-* LinuxCNC 2.9.4 [Raspberry Pi 5 OS based on Debian Bookworm](https://www.linuxcnc.org/iso/rpi-5-debian-bookworm-6.12.11-arm64-ext4-2025-01-27-0140.img.xz)
-Raspberry Pi 5 Uspace compatible with Mesa Ethernet boards. (SPI is now fully supported with the [spix driver](https://linuxcnc.org/docs/stable/html/man/man9/hm2_spix.9.html))
+* LinuxCNC 2.9.7 [Raspberry Pi 4/5 OS based on Debian Trixie](https://www.linuxcnc.org/iso/image_2025-11-05-raspios-lcnc-2.9.7-6-trixie-arm64.zip)
+Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "Uspace" version compatible with Mesa Ethernet and SPI interface boards.
 
-These .xz files are directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
-
-For both of these images:  
-User name: cnc  
-Password: cnc  
-Please run the following from the commandline to configure wifi, timezones and other data:  
-```
-sudo menu-config
-```
+The .zip file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
+A setup wizard will run on startup to configure username, password, WiFi etc. 
 
 Regular development builds (several times a day) can be found here. 
 * [LinuxCNC Buildbot](http://buildbot.linuxcnc.org/)
