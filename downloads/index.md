@@ -67,7 +67,8 @@ In addition to the RTAI kernel you will also need the rtai-modules package and t
 be downloaded by adding the linuxcnc 2.9-rt package repository as described in the link above. 
 
 
-* LinuxCNC 2.9.7 [Raspberry Pi 4/5 OS based on Debian Trixie](https://www.linuxcnc.org/iso/image_2025-11-05-raspios-lcnc-2.9.7-6-trixie-arm64.zip)
+* LinuxCNC 2.9.7 [Raspberry Pi 4/5 OS based on Debian Trixie](https://www.linuxcnc.org/iso/image_2025-11-10-raspios-lcnc-2.9.7-6-trixie-arm64.zip)
+ -- [MD5Sum](https://www.linuxcnc.org/iso/image_2025-11-10-raspios-lcnc-2.9.7-6-trixie-arm64.md5)
 Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "Uspace" version compatible with Mesa Ethernet and SPI interface boards.
 
 The .zip file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
