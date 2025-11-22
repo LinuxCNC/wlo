@@ -88,9 +88,9 @@ from the command line or with GDebi as a graphical install method. You will need
 to have a compatible realtime kernel to control machinery.
 
 * [LinuxCNC Uspace 2.9.7 amd64 (PC)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.7_amd64.deb)
-* [LinuxCNC Uspace 2.9.7 arm64 (Pi)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.7_arm64_bookworm.deb)
+* [LinuxCNC Uspace 2.9.7 arm64 (Pi)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.7_arm64.deb)
 * LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.7_all.deb) - [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.7_all.deb) - [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.7_all.deb) - [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.7_all.deb) - [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.7_all.deb)
-* LinuxCNC Uspace 2.9.7 Dev Package [AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.7_amd64.deb) - [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.7_arm64_bookworm.deb)
+* LinuxCNC Uspace 2.9.7 Dev Package [AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.7_amd64.deb) - [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.7_arm64.deb)
 
 * [LinuxCNC package for RTAI kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/2.9-rt/binary-amd64/linuxcnc_2.9.3_amd64.deb)
 * [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/linux-image-5.4.258-rtai-amd64_5.4.258-rtai-amd64-2_amd64.deb)
