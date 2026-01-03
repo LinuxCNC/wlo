@@ -44,12 +44,10 @@ as a pre-built package.
 
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
-Note that at the moment these installers will install 2.9.4 whereas the latest release is 2.9.7. 
-Update should be automatic through the package manager, and updated images are in progress. 
 
-* LinuxCNC 2.9.4 [Debian 12 Bookworm PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.4-amd64.hybrid.iso)
+* LinuxCNC 2.9.8 [Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.8-amd64.hybrid.iso)
 
-The Debian 12 Bookworm ISO will install a full Debian system with the required
+The Debian 13 Trixie ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
 patched kernel  which is close to mainstream Linux but does not, in some
 cases, give quite such good realtime performance as the previous RTAI
@@ -57,9 +55,9 @@ kernel. It is very often more than good enough. It should probably be
 the first version tried even if using a parallel port.
 This is compatible with all Mesa and Pico interface boards.
 
-* LinuxCNC 2.9.4 Debian 12 Bookworm RTAI
+* LinuxCNC 2.9.8 Debian 13 Trixie RTAI
 
-The more adventurous can install the Bookworm ISO and then install the
+The more adventurous can install the Trixie ISO and then install the
 experimental RTAI kernel as described in 
 [2.9 documents](http://linuxcnc.org/docs/2.9/html/getting-started/getting-linuxcnc.html#cha:Installing-RTAI)
 The kernel-mode RTAI installation can not be used with Mesa Ethernet-interfaced cards.
@@ -74,9 +72,6 @@ Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "
 The .zip file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
 A setup wizard will run on startup to configure username, password, WiFi etc. 
 
-Regular development builds (several times a day) can be found here. 
-* [LinuxCNC Buildbot](http://buildbot.linuxcnc.org/)
-
 More information on downloading and installing is in the
 [LinuxCNC Documents](http://linuxcnc.org/docs/stable/html/getting-started/getting-linuxcnc.html)
 
@@ -87,12 +82,13 @@ LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
 from the command line or with GDebi as a graphical install method. You will need
 to have a compatible realtime kernel to control machinery.
 
-* [LinuxCNC Uspace 2.9.7 amd64 (PC)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.7_amd64.deb)
-* [LinuxCNC Uspace 2.9.7 arm64 (Pi)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.7_arm64.deb)
-* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.7_all.deb) - [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.7_all.deb) - [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.7_all.deb) - [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.7_all.deb) - [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.7_all.deb)
-* LinuxCNC Uspace 2.9.7 Dev Package [AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.7_amd64.deb) - [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.7_arm64.deb)
+* [LinuxCNC Uspace 2.9.8 amd64 (PC)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.8_amd64.deb)
+* [LinuxCNC Uspace 2.9.8 arm64 (Pi)](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.8_arm64.deb)
+* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.8_all.deb) - [Spanish](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.8_all.deb) - [French](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.8_all.deb) - [German](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.8_all.deb) - [Chinese](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.8_all.deb)
+* LinuxCNC Uspace 2.9.8 Dev Package [AMD64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.8_amd64.deb) - [ARM64](https://www.linuxcnc.org/dists/bookworm/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.8_arm64.deb)
 
-* [LinuxCNC package for RTAI kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/2.9-rt/binary-amd64/linuxcnc_2.9.3_amd64.deb)
-* [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/linux-image-5.4.258-rtai-amd64_5.4.258-rtai-amd64-2_amd64.deb)
-* [RTAI modules](https://www.linuxcnc.org/dists/bookworm/base/binary-amd64/rtai-modules-5.4.258_5.3.3-linuxcnc-delta_amd64.deb)
+* [LinuxCNC package for RTAI kernel 5.4.290-rtai-amd64](https://www.linuxcnc.org/dists/trixie/2.9-rt/binary-amd64/linuxcnc_2.9.8_amd64.deb))
+* [RTAI Kernel 5.4.258](https://www.linuxcnc.org/dists/trixie/base/binary-amd64/linux-image-5.4.290-rtai-amd64_5.4.290-rtai-amd64-1_amd64.deb)
+* [RTAI modules](https://www.linuxcnc.org/dists/trixie/base/binary-amd64/rtai-modules-5.4.290_5.3.3-linuxcnc_amd64.deb)
+* [Kernel Headers](https://www.linuxcnc.org/dists/trixie/base/binary-amd64/linux-headers-5.4.290-rtai-amd64_5.4.290-rtai-amd64-1_amd64.deb)
 
