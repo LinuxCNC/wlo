@@ -45,8 +45,9 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-* LinuxCNC 2.9.8 [Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.8-amd64.hybrid.iso)
+### LinuxCNC 2.9.8 Debian 13 Trixie PREEMPT-RT ISO
 
+[Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.8-amd64.hybrid.iso)
 The Debian 13 Trixie ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
 patched kernel  which is close to mainstream Linux but does not, in some
@@ -55,7 +56,7 @@ kernel. It is very often more than good enough. It should probably be
 the first version tried even if using a parallel port.
 This is compatible with all Mesa and Pico interface boards.
 
-* LinuxCNC 2.9.8 Debian 13 Trixie RTAI
+### LinuxCNC 2.9.8 Debian 13 Trixie RTAI
 
 The more adventurous can install the Trixie ISO and then install the
 experimental RTAI kernel as described in 
@@ -65,9 +66,10 @@ In addition to the RTAI kernel you will also need the rtai-modules package and t
 be downloaded by adding the linuxcnc 2.9-rt package repository as described in the link above. 
 
 
-* LinuxCNC 2.9.7 [Raspberry Pi 4/5 OS based on Debian Trixie](https://www.linuxcnc.org/iso/image_2025-11-10-raspios-lcnc-2.9.7-6-trixie-arm64.zip)
- -- [MD5Sum](https://www.linuxcnc.org/iso/image_2025-11-10-raspios-lcnc-2.9.7-6-trixie-arm64.md5)
-Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "Uspace" version compatible with Mesa Ethernet and SPI interface boards.
+### LinuxCNC 2.9.8 Raspberry Pi 4/5 OS based on Debian Trixie
+
+[Raspberry Pi 4/5 SD Card Image](https://www.linuxcnc.org/iso/image_2026-01-21-raspios-lcnc-2.9.8-trixie-arm64.zip)] (MD5SUM 705b7f3c2f7b385f6cb094d05e01070e)
+Complete SD Card image for the Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "Uspace" version compatible with Mesa Ethernet and SPI interface boards. The base install uses 6.5GB, but 16GB minimum SD card capacity is reoommended.
 
 The .zip file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
 A setup wizard will run on startup to configure username, password, WiFi etc. 
