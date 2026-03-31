@@ -15,7 +15,7 @@ airport (OSL), with plenty of space and a hotel just 5 minutes away by
 car. We plan to fire up the barbecue in the evenings. Please let us
 know if you would like to join. We track the list of participants on a
 simple pad for food capacity planning. Please add yourself
-[https://pad.efn.no/p/linuxcnc-2026-norway](to the pad) if you are
+[to the pad](https://pad.efn.no/p/linuxcnc-2026-norway) if you are
 interested in showing up, and join the Signal group.
 
 Details and signup here:
