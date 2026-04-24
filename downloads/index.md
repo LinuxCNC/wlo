@@ -56,6 +56,8 @@ kernel. It is very often more than good enough. It should probably be
 the first version tried even if using a parallel port.
 This is compatible with all Mesa and Pico interface boards.
 
+Note: An active internet connection is needed to install the Debian 13 ISO
+
 ### LinuxCNC 2.9.8 Debian 13 Trixie RTAI
 
 The more adventurous can install the Trixie ISO and then install the
