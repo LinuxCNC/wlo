@@ -71,7 +71,7 @@ be downloaded by adding the linuxcnc 2.9-rt package repository as described in t
 ### LinuxCNC 2.9.8 Raspberry Pi 4/5 OS based on Debian Trixie
 
 [Raspberry Pi 4/5 SD Card Image](https://www.linuxcnc.org/iso/image_2026-01-21-raspios-lcnc-2.9.8-trixie-arm64.zip)] (MD5SUM 705b7f3c2f7b385f6cb094d05e01070e)
-Complete SD Card image for the Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "Uspace" version compatible with Mesa Ethernet and SPI interface boards. The base install uses 6.5GB, but 16GB minimum SD card capacity is reoommended.
+Complete SD Card image for the Raspberry Pi 4/5 (It is not recommended to run LinuxCNC on the Pi3 or earlier) "Uspace" version compatible with Mesa Ethernet and SPI interface boards. The base install uses 6.5GB, but 16GB minimum SD card capacity is recommended.
 
 The .zip file is directly readable by the [Raspberry Pi imager application](https://www.raspberrypi.com/software/)
 A setup wizard will run on startup to configure username, password, WiFi etc. 
