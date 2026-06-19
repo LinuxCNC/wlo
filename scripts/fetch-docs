@@ -1,0 +1,181 @@
+#!/usr/bin/env python3
+# fetch-docs -- publish a linuxcnc-doc CI artifact to the docs webroot.
+# Runs from cron on the webserver. Stdlib only (no pip installs).
+#
+# Picks the newest non-expired artifact built on BRANCH by the trusted repo
+# (head_repository_id, so a fork PR cannot inject docs), verifies its sha256,
+# unpacks it, sanity-checks the tree, then swaps the served 'html' symlink
+# atomically. Silent on success so cron stays quiet.
+
+import hashlib
+import json
+import os
+import shutil
+import sys
+import tarfile
+import tempfile
+import urllib.request
+
+# ---- config --------------------------------------------------------------
+# Usage: fetch-docs.py [BRANCH] [WEBROOT]   (one cron line per branch)
+#   fetch-docs.py master /var/www/.../docs/devel
+#   fetch-docs.py 2.9    /var/www/.../docs/stable
+REPO = "LinuxCNC/linuxcnc"
+REPO_ID = 3662905                                     # head_repository_id; use your fork id to test
+NAME = "linuxcnc-doc.tar.gz"                           # upload-artifact archive:false names it after the file
+API_VER = "2026-03-10"
+TOKEN_FILE = os.path.expanduser("~/.config/linuxcnc-docs/token")  # chmod 600, PAT actions:read
+BRANCH = sys.argv[1] if len(sys.argv) > 1 else "master"
+WEBROOT = sys.argv[2] if len(sys.argv) > 2 else "/var/www/.../docs/devel"  # holds 'html' symlink + releases
+# --------------------------------------------------------------------------
+
+API = "https://api.github.com"
+
+
+def die(msg):
+    sys.stderr.write(msg + "\n")
+    sys.exit(1)
+
+
+def token():
+    return (os.environ.get("GITHUB_TOKEN")
+            or open(TOKEN_FILE).read().strip())
+
+
+def auth_headers(tok):
+    return {"Accept": "application/vnd.github+json",
+            "Authorization": "Bearer " + tok,
+            "X-GitHub-Api-Version": API_VER}
+
+
+def get_json(url, tok):
+    req = urllib.request.Request(url, headers=auth_headers(tok))
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def pick_artifact(tok):
+    # The API returns artifacts newest-first; take the first usable one.
+    url = "%s/repos/%s/actions/artifacts?per_page=100&name=%s" % (API, REPO, NAME)
+    for a in get_json(url, tok).get("artifacts", []):
+        if a.get("expired"):
+            continue
+        w = a.get("workflow_run") or {}
+        if w.get("head_branch") != BRANCH:
+            continue
+        if int(w.get("head_repository_id") or 0) != REPO_ID:
+            continue
+        return a
+    die("no %s artifact for %s from repo %d" % (NAME, BRANCH, REPO_ID))
+
+
+def download(url, tok, dest):
+    # Resolve the redirect ourselves so the token never reaches blob storage.
+    class NoRedirect(urllib.request.HTTPRedirectHandler):
+        def redirect_request(self, *a, **k):
+            return None
+    opener = urllib.request.build_opener(NoRedirect)
+    try:
+        # No redirect (same host): stream the authenticated response.
+        with opener.open(urllib.request.Request(url, headers=auth_headers(tok)),
+                         timeout=300) as r, open(dest, "wb") as f:
+            shutil.copyfileobj(r, f)
+        return
+    except urllib.error.HTTPError as e:
+        if e.code not in (301, 302, 303, 307, 308):
+            raise
+        loc = e.headers["Location"]
+    # Redirected to blob storage: fetch the signed URL without the token.
+    with urllib.request.urlopen(loc, timeout=300) as r, open(dest, "wb") as f:
+        shutil.copyfileobj(r, f)
+
+
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(1 << 16), b""):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def safe_extract(tar_path, dest):
+    with tarfile.open(tar_path, "r:gz") as t:
+        for m in t.getmembers():
+            p = os.path.normpath(m.name)
+            if p.startswith("..") or os.path.isabs(p):
+                die("refusing artifact: unsafe path in tar: " + m.name)
+        t.extractall(dest)
+
+
+def check_tree(root):
+    if not os.path.isfile(os.path.join(root, "index.html")):
+        die("artifact has no index.html")
+    for dp, _, files in os.walk(root):
+        for fn in files:
+            fp = os.path.join(dp, fn)
+            if os.stat(fp).st_mode & 0o111:
+                die("refusing artifact: executable file: " + fp)
+            if fn.lower().endswith((".html", ".htm")):
+                with open(fp, "rb") as f:
+                    blob = f.read()
+                if b"<?php" in blob or b"<?=" in blob:
+                    die("refusing artifact: contains PHP tags: " + fp)
+
+
+def publish(root, art_id):
+    rel = os.path.join(WEBROOT, "html-%d" % art_id)
+    if os.path.exists(rel):
+        shutil.rmtree(rel)
+    shutil.move(root, rel)
+    tmp = os.path.join(WEBROOT, ".html.new.%d" % os.getpid())
+    if os.path.lexists(tmp):
+        os.remove(tmp)
+    os.symlink("html-%d" % art_id, tmp)
+    os.replace(tmp, os.path.join(WEBROOT, "html"))     # atomic swap
+
+
+def prune(keep_id):
+    rels = []
+    for n in os.listdir(WEBROOT):
+        if n.startswith("html-") and n[5:].isdigit():
+            rels.append(int(n[5:]))
+    for i in sorted(rels, reverse=True)[2:]:           # keep live + one rollback
+        shutil.rmtree(os.path.join(WEBROOT, "html-%d" % i))
+
+
+def main():
+    tok = token()
+    art = pick_artifact(tok)
+    art_id = art["id"]
+
+    stamp = os.path.join(WEBROOT, ".deployed-artifact-id")
+    if os.path.exists(stamp) and open(stamp).read().strip() == str(art_id):
+        return                                         # already live; nothing to do
+
+    digest = (art.get("digest") or "")
+    if not digest.startswith("sha256:"):
+        die("artifact %d has no sha256 digest" % art_id)
+
+    work = tempfile.mkdtemp(prefix=".fetch.", dir=WEBROOT)
+    try:
+        zpath = os.path.join(work, "doc.tar.gz")
+        download(art["archive_download_url"], tok, zpath)
+        if sha256(zpath) != digest.split(":", 1)[1]:
+            die("zip sha256 mismatch")
+        safe_extract(zpath, os.path.join(work, "tree"))
+
+        root = os.path.join(work, "tree")
+        if os.path.isdir(os.path.join(root, "html")):
+            root = os.path.join(root, "html")
+        check_tree(root)
+
+        publish(root, art_id)
+        with open(stamp, "w") as f:
+            f.write(str(art_id) + "\n")
+        prune(art_id)
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+
+
+if __name__ == "__main__":
+    main()
