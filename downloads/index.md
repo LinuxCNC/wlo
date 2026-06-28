@@ -45,9 +45,9 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-### LinuxCNC 2.9.8 Debian 13 Trixie PREEMPT-RT ISO
+### LinuxCNC 2.9.9 Debian 13 Trixie PREEMPT-RT ISO
 
-[Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.8-amd64.hybrid.iso)
+[Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.9-amd64.hybrid.iso)
 The Debian 13 Trixie ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
 patched kernel  which is close to mainstream Linux but does not, in some
@@ -86,10 +86,10 @@ LinuxCNC debian packages aka .deb files can be installed on a system with dpkg
 from the command line or with GDebi as a graphical install method. You will need
 to have a compatible realtime kernel to control machinery.
 
-* [LinuxCNC Uspace 2.9.8 amd64 (PC)](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.8_amd64.deb)
-* [LinuxCNC Uspace 2.9.8 arm64 (Pi)](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.8_arm64.deb)
-* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.8_all.deb) - [Spanish](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.8_all.deb) - [French](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.8_all.deb) - [German](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.8_all.deb) - [Chinese](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.8_all.deb)
-* LinuxCNC Uspace 2.9.8 Dev Package [AMD64](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.8_amd64.deb) - [ARM64](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.8_arm64.deb)
+* [LinuxCNC Uspace 2.9.9 amd64 (PC)](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-amd64/linuxcnc-uspace_2.9.9_amd64.deb)
+* [LinuxCNC Uspace 2.9.9 arm64 (Pi)](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-arm64/linuxcnc-uspace_2.9.9_arm64.deb)
+* LinuxCNC Docs [English](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-en_2.9.9_all.deb) - [Spanish](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-es_2.9.9_all.deb) - [French](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-fr_2.9.9_all.deb) - [German](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-de_2.9.9_all.deb) - [Chinese](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-all/linuxcnc-doc-zh-cn_2.9.9_all.deb)
+* LinuxCNC Uspace 2.9.9 Dev Package [AMD64](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-amd64/linuxcnc-uspace-dev_2.9.9_amd64.deb) - [ARM64](https://www.linuxcnc.org/dists/trixie/2.9-uspace/binary-arm64/linuxcnc-uspace-dev_2.9.9_arm64.deb)
 
 * [LinuxCNC package for RTAI kernel 5.4.279-rtai-amd64](https://www.linuxcnc.org/dists/trixie/2.9-rt/binary-amd64/linuxcnc_2.9.8_amd64.deb))
 * [RTAI Kernel 5.4.279](https://www.linuxcnc.org/dists/trixie/base/binary-amd64/linux-image-5.4.279-rtai-amd64_5.4.279-rtai-amd64-1_amd64.deb)
