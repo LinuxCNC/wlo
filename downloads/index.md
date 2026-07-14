@@ -45,9 +45,9 @@ as a pre-built package.
 The links below point to the latest released images. Older releases can still be
 found [here](https://www.linuxcnc.org/iso/)
 
-### LinuxCNC 2.9.8 Debian 13 Trixie PREEMPT-RT ISO
+### LinuxCNC 2.9.10 Debian 13 Trixie PREEMPT-RT ISO
 (Download this then update to 2.9.10 with Synaptic or apt. 2.9.10 .iso image is WIP)
-[Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.8-amd64.hybrid.iso)
+[Debian 13 Trixie PREEMPT-RT ISO](https://www.linuxcnc.org/iso/linuxcnc_2.9.10-amd64.hybrid.iso)
 The Debian 13 Trixie ISO will install a full Debian system with the required
 realtime kernel and the linuxcnc-uspace application. It uses a PREEMPT-RT
 patched kernel  which is close to mainstream Linux but does not, in some
